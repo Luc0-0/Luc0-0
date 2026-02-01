@@ -80,7 +80,7 @@
              <img src="https://img.shields.io/github/followers/Luc0-0?style=for-the-badge&color=0d1117&labelColor=0d1117&logo=github&logoColor=FFB11A" height="35" />
         </td>
         <td align="center" style="border: none;">
-            <img src="https://img.shields.io/github/commits-since/Luc0-0/Luc0-0/2025-01-01?style=for-the-badge&color=0d1117&labelColor=0d1117&logo=git&logoColor=FFB11A&label=2026%20COMMITS" height="35" />
+            <img src="https://img.shields.io/github/commit-activity/y/Luc0-0/Luc0-0?style=for-the-badge&color=0d1117&labelColor=0d1117&logo=git&logoColor=FFB11A&label=ACTIVITY" height="35" />
         </td>
     </tr>
 </table>
