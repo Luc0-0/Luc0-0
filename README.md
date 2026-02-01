@@ -8,7 +8,8 @@
 
 <br/>
 
-> **Hi, I'm Nipun Sujesh 👋**  
+> **Hi, I'm Nipun Sujesh 👋**
+> 
 > AI/ML and Full-Stack Developer focused on building **end-to-end intelligent systems** — from data preprocessing and model training to backend APIs and production-ready interfaces. Experienced in applied machine learning, NLP, and deep learning, with a focus on research-driven design.
 
 <br/>
