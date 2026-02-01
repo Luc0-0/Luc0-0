@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="20" viewBox="0 0 800 20" preserveAspectRatio="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2" viewBox="0 0 1200 2">
   <defs>
     <linearGradient id="gold-fade" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#FFB11A;stop-opacity:0" />
@@ -6,6 +6,5 @@
       <stop offset="100%" style="stop-color:#FFB11A;stop-opacity:0" />
     </linearGradient>
   </defs>
-  <!-- Thin center line with fade -->
-  <rect x="0" y="9" width="800" height="1" fill="url(#gold-fade)" opacity="0.6"/>
+  <rect x="0" y="0" width="1200" height="2" fill="url(#gold-fade)" />
 </svg>

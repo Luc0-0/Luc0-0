@@ -26,7 +26,7 @@
 </div>
 
 <div align="center">
-    <img src="./header/divider.svg" width="100%" />
+    <img src="./header/divider.svg" width="100%" height="2px" />
 </div>
 
 <!-- Section with Emoji -->
@@ -37,7 +37,7 @@
 </div>
 
 <div align="center">
-    <img src="./header/divider.svg" width="100%" />
+    <img src="./header/divider.svg" width="100%" height="2px" />
 </div>
 
 ## ◈ Selected Works
@@ -54,7 +54,7 @@
 </div>
 
 <div align="center">
-    <img src="./header/divider.svg" width="100%" />
+    <img src="./header/divider.svg" width="100%" height="2px" />
 </div>
 
 ## ◈ Technical Arsenal
@@ -65,7 +65,7 @@
 </div>
 
 <div align="center">
-    <img src="./header/divider.svg" width="100%" />
+    <img src="./header/divider.svg" width="100%" height="2px" />
 </div>
 
 ## ◈ Impact
@@ -103,7 +103,7 @@
 </div>
 
 <div align="center">
-    <img src="./header/divider.svg" width="100%" />
+    <img src="./header/divider.svg" width="100%" height="2px" />
 </div>
 
 <p align="center">
