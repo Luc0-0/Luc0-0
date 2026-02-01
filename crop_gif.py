@@ -2,14 +2,11 @@ from PIL import Image
 
 gif_path = r"c:\Users\NIPUN\OneDrive\Desktop\Projects 100\Luc0-0\header\anb (1).gif"
 
-# Open the GIF
 img = Image.open(gif_path)
 
-# Crop dimensions: remove 200px from top and 200px from bottom
-crop_box = (0, 280, 1920, 800)
+crop_box = (0, 290, 1920, 790)
 
-# Process all frames
-frames = []
+
 durations = []
 
 for frame_idx in range(img.n_frames):
@@ -19,7 +16,7 @@ for frame_idx in range(img.n_frames):
     frames.append(cropped_frame)
     durations.append(img.info.get('duration', 100))
 
-# Save the cropped GIF
+
 frames[0].save(
     gif_path,
     save_all=True,
