@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
   <defs>
-    <filter id="glow">
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
@@ -17,9 +17,8 @@
       .core { fill: #161b22; stroke: #C6A875; stroke-width: 2; }
       .node-pill { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 14; ry: 14; }
       
-      /* Animation: Continuous Flow "Like Before" */
+      /* Animation: Continuous Flow */
       .synapse { stroke: #C6A875; stroke-width: 1.5; opacity: 0.2; stroke-linecap: round; }
-      /* The signal is now a continuous dashed line moving, matching the user's preference */
       .signal { 
         fill: none;
         stroke: #FFB11A; 
@@ -48,16 +47,16 @@
   <!-- CONNECTIONS Layer (Back) -->
   
   <!-- Left Branch (NLP) -->
-  <path d="M400 175 L 200 100" class="synapse" />
-  <path d="M400 175 L 200 100" class="signal" />
+  <line x1="400" y1="175" x2="200" y2="100" class="synapse" />
+  <line x1="400" y1="175" x2="200" y2="100" class="signal" />
   
   <!-- Right Branch (DEV) -->
-  <path d="M400 175 L 600 100" class="synapse" />
-  <path d="M400 175 L 600 100" class="signal" />
+  <line x1="400" y1="175" x2="600" y2="100" class="synapse" />
+  <line x1="400" y1="175" x2="600" y2="100" class="signal" />
 
-  <!-- Bottom Branch (DATA) -->
-  <path d="M400 175 L 400 280" class="synapse" />
-  <path d="M400 175 L 400 280" class="signal" />
+  <!-- Bottom Branch (DATA) - FIXED: Using line explicitly to ensure rendering -->
+  <line x1="400" y1="175" x2="400" y2="280" class="synapse" />
+  <line x1="400" y1="175" x2="400" y2="280" class="signal" />
 
   <!-- Sub-Connections NLP -->
   <line x1="200" y1="100" x2="100" y2="70" class="synapse"/> <line x1="200" y1="100" x2="100" y2="70" class="signal"/>
@@ -78,7 +77,6 @@
 
   <!-- CENTER CORE: Hexagon -->
   <path d="M370 175 L 385 150 L 415 150 L 430 175 L 415 200 L 385 200 Z" class="core" filter="url(#glow)" />
-  <!-- UPDATED: Just "AI", larger and centered -->
   <text x="400" y="182" class="label-core">AI</text>
 
   <!-- === NLP BRANCH (Left) === -->
