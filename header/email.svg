@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="45" viewBox="0 0 140 45">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; fill: #FFB11A; letter-spacing: 1.5px; text-transform: uppercase; }
+      .icon { fill: #FFB11A; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="138" height="43" rx="21.5" fill="url(#grad)" stroke="#FFB11A" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glow)"/>
+
+  <!-- Icon: Envelope -->
+  <path class="icon" transform="translate(18, 11) scale(1.0)" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+
+  <text x="78" y="28" text-anchor="middle" class="text">EMAIL</text>
+</svg>
