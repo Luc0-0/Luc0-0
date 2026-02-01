@@ -8,6 +8,4 @@
   </defs>
   <!-- Thin center line with fade -->
   <rect x="0" y="9" width="800" height="1" fill="url(#gold-fade)" opacity="0.6"/>
-  <!-- Optional: Small center diamond accent -->
-  <rect x="396" y="6" width="8" height="8" rx="1" transform="rotate(45 400 10)" fill="#FFB11A"/>
 </svg>

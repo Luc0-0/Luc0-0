@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <style>
+      .core-text { font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: bold; fill: #FFB11A; text-anchor: middle; }
+      .orbit-ring { fill: none; stroke: #30363d; stroke-width: 1; stroke-dasharray: 4 4; opacity: 0.5; }
+      .planet-circle { fill: #0d1117; stroke: #FFB11A; stroke-width: 1.5; }
+      .planet-text { font-family: 'Segoe UI', monospace; font-size: 11px; fill: #c9d1d9; text-anchor: middle; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Center Core -->
+  <circle cx="400" cy="150" r="35" fill="#161b22" stroke="#FFB11A" stroke-width="2"/>
+  <text x="400" y="155" class="core-text">AI CORE</text>
+
+  <!-- Inner Orbit (ML/Data) -->
+  <ellipse cx="400" cy="150" rx="120" ry="50" class="orbit-ring"/>
+  
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 400 150" to="360 400 150" dur="20s" repeatCount="indefinite"/>
+    <!-- Planet 1: PyTorch -->
+    <g transform="translate(400, 100)">
+      <circle r="18" class="planet-circle"/>
+      <text dy="4" class="planet-text">PyTorch</text>
+    </g>
+    <!-- Planet 2: Pandas -->
+    <g transform="translate(400, 200)">
+      <circle r="18" class="planet-circle"/>
+      <text dy="4" class="planet-text">Pandas</text>
+    </g>
+    <!-- Planet 2: Pandas -->
+    <g transform="translate(520, 150)">
+      <circle r="18" class="planet-circle"/>
+      <text dy="4" class="planet-text">TF</text>
+    </g>
+     <g transform="translate(280, 150)">
+      <circle r="18" class="planet-circle"/>
+      <text dy="4" class="planet-text">XLNet</text>
+    </g>
+  </g>
+
+  <!-- Outer Orbit (Web/Dev) -->
+  <ellipse cx="400" cy="150" rx="200" ry="80" class="orbit-ring"/>
+  
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 400 150" to="0 400 150" dur="30s" repeatCount="indefinite"/>
+    <!-- Planet 3: React -->
+    <g transform="translate(600, 150)">
+      <circle r="18" class="planet-circle"/>
+      <text dy="4" class="planet-text">React</text>
+    </g>
+    <!-- Planet 4: Python -->
+    <g transform="translate(200, 150)">
+       <circle r="18" class="planet-circle"/>
+       <text dy="4" class="planet-text">Python</text>
+    </g>
+     <!-- Planet 4: Python -->
+    <g transform="translate(400, 70)">
+       <circle r="18" class="planet-circle"/>
+       <text dy="4" class="planet-text">Flask</text>
+    </g>
+      <g transform="translate(400, 230)">
+       <circle r="18" class="planet-circle"/>
+       <text dy="4" class="planet-text">Git</text>
+    </g>
+  </g>
+</svg>

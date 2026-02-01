@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
+  <defs>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161b22;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0.95" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <style>
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 20px; font-weight: 700; fill: #e6edf3; }
+      .badge { font-family: 'Segoe UI', sans-serif; font-size: 10px; font-weight: 700; fill: #FFB11A; letter-spacing: 1px; text-transform: uppercase; }
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #8b949e; }
+      .bullet { fill: #FFB11A; }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="780" height="160" rx="10" fill="url(#card-grad)" stroke="#30363d" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="10" y="30" width="3" height="120" fill="#FFB11A" rx="1.5" opacity="0.8"/>
+
+  <text x="40" y="45" class="title">XLNet Emotion Pipeline</text>
+  <rect x="620" y="30" width="150" height="20" rx="4" fill="rgba(56, 139, 253, 0.1)" stroke="#30363d" stroke-width="1"/>
+  <text x="695" y="44" text-anchor="middle" class="badge" fill="#58a6ff">TRANSFORMERS</text>
+
+  <circle cx="45" cy="80" r="2" class="bullet"/>
+  <text x="60" y="85" class="text">Fine-tuned XLNet pipeline for subtle emotion detection.</text>
+
+  <circle cx="45" cy="110" r="2" class="bullet"/>
+  <text x="60" y="115" class="text">Comprehensive analysis of <tspan fill="#c9d1d9" font-weight="bold">confusion matrices</tspan> and loss.</text>
+
+  <circle cx="45" cy="140" r="2" class="bullet"/>
+  <text x="60" y="145" class="text">Optimized for reproducibility in sensitive health contexts.</text>
+</svg>

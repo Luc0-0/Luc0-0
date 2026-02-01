@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      /* Typography */
+      .label-main { font-family: 'Segoe UI', Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #C6A875; text-anchor: middle; letter-spacing: 1px; }
+      .label-sub { font-family: 'Segoe UI', Helvetica, sans-serif; font-size: 11px; font-weight: 600; fill: #8b949e; text-anchor: middle; }
+      .label-core { font-family: 'Segoe UI', Helvetica, sans-serif; font-size: 18px; font-weight: 800; fill: #FFB11A; text-anchor: middle; letter-spacing: 2px; }
+
+      /* Geometry Styles */
+      .core { fill: #161b22; stroke: #C6A875; stroke-width: 2; }
+      .node-pill { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 14; ry: 14; }
+      
+      /* Animation: Continuous Flow "Like Before" */
+      .synapse { stroke: #C6A875; stroke-width: 1.5; opacity: 0.2; stroke-linecap: round; }
+      /* The signal is now a continuous dashed line moving, matching the user's preference */
+      .signal { 
+        fill: none;
+        stroke: #FFB11A; 
+        stroke-width: 1.5; 
+        stroke-dasharray: 4 6; 
+        stroke-linecap: round;
+        animation: flow 1s linear infinite; 
+        opacity: 0.8;
+        filter: url(#glow); 
+      }
+      
+      @keyframes flow {
+        from { stroke-dashoffset: 10; }
+        to { stroke-dashoffset: 0; }
+      }
+      
+      /* Subtle Pulse for Nodes */
+      .active-pill { stroke: #C6A875; stroke-opacity: 0.6; animation: border-pulse 4s ease-in-out infinite alternate; }
+      @keyframes border-pulse {
+        from { stroke-opacity: 0.4; stroke-width: 1; }
+        to { stroke-opacity: 0.9; stroke-width: 1.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- CONNECTIONS Layer (Back) -->
+  
+  <!-- Left Branch (NLP) -->
+  <path d="M400 175 L 200 100" class="synapse" />
+  <path d="M400 175 L 200 100" class="signal" />
+  
+  <!-- Right Branch (DEV) -->
+  <path d="M400 175 L 600 100" class="synapse" />
+  <path d="M400 175 L 600 100" class="signal" />
+
+  <!-- Bottom Branch (DATA) -->
+  <path d="M400 175 L 400 280" class="synapse" />
+  <path d="M400 175 L 400 280" class="signal" />
+
+  <!-- Sub-Connections NLP -->
+  <line x1="200" y1="100" x2="100" y2="70" class="synapse"/> <line x1="200" y1="100" x2="100" y2="70" class="signal"/>
+  <line x1="200" y1="100" x2="150" y2="40" class="synapse"/> <line x1="200" y1="100" x2="150" y2="40" class="signal"/>
+  <line x1="200" y1="100" x2="280" y2="50" class="synapse"/> <line x1="200" y1="100" x2="280" y2="50" class="signal"/>
+
+  <!-- Sub-Connections DEV -->
+  <line x1="600" y1="100" x2="520" y2="50" class="synapse"/> <line x1="600" y1="100" x2="520" y2="50" class="signal"/>
+  <line x1="600" y1="100" x2="650" y2="40" class="synapse"/> <line x1="600" y1="100" x2="650" y2="40" class="signal"/>
+  <line x1="600" y1="100" x2="700" y2="70" class="synapse"/> <line x1="600" y1="100" x2="700" y2="70" class="signal"/>
+
+  <!-- Sub-Connections DATA -->
+  <line x1="400" y1="280" x2="330" y2="310" class="synapse"/> <line x1="400" y1="280" x2="330" y2="310" class="signal"/>
+  <line x1="400" y1="280" x2="470" y2="310" class="synapse"/> <line x1="400" y1="280" x2="470" y2="310" class="signal"/>
+
+
+  <!-- NODES Layer (Front) -->
+
+  <!-- CENTER CORE: Hexagon -->
+  <path d="M370 175 L 385 150 L 415 150 L 430 175 L 415 200 L 385 200 Z" class="core" filter="url(#glow)" />
+  <!-- UPDATED: Just "AI", larger and centered -->
+  <text x="400" y="182" class="label-core">AI</text>
+
+  <!-- === NLP BRANCH (Left) === -->
+  <!-- Node: NLP -->
+  <circle cx="200" cy="100" r="28" fill="#161b22" stroke="#C6A875" stroke-width="1.5"/>
+  <text x="200" y="105" class="label-main">NLP</text>
+
+  <!-- Leaves: Pills -->
+  <g transform="translate(100, 70)">
+    <rect x="-40" y="-14" width="80" height="28" class="node-pill active-pill"/>
+    <text dy="5" class="label-sub">PyTorch</text>
+  </g>
+
+  <g transform="translate(150, 40)">
+    <rect x="-50" y="-14" width="100" height="28" class="node-pill active-pill" style="animation-delay: 1s;"/>
+    <text dy="5" class="label-sub">Transformers</text>
+  </g>
+
+  <g transform="translate(280, 50)">
+    <rect x="-40" y="-14" width="80" height="28" class="node-pill active-pill" style="animation-delay: 0.5s;"/>
+    <text dy="5" class="label-sub">Scikit-Learn</text>
+  </g>
+
+  <!-- === DEV BRANCH (Right) === -->
+  <!-- Node: DEV -->
+  <circle cx="600" cy="100" r="28" fill="#161b22" stroke="#C6A875" stroke-width="1.5"/>
+  <text x="600" y="105" class="label-main">DEV</text>
+
+  <!-- Leaves: Pills -->
+  <g transform="translate(520, 50)">
+    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill"/>
+    <text dy="5" class="label-sub">React</text>
+  </g>
+
+  <g transform="translate(650, 40)">
+    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill" style="animation-delay: 1.2s;"/>
+    <text dy="5" class="label-sub">Flask</text>
+  </g>
+
+  <g transform="translate(700, 70)">
+    <rect x="-30" y="-14" width="60" height="28" class="node-pill active-pill" style="animation-delay: 0.3s;"/>
+    <text dy="5" class="label-sub">Git</text>
+  </g>
+
+  <!-- === DATA BRANCH (Bottom) === -->
+  <!-- Node: DATA -->
+  <circle cx="400" cy="280" r="28" fill="#161b22" stroke="#C6A875" stroke-width="1.5"/>
+  <text x="400" y="285" class="label-main">DATA</text>
+
+  <!-- Leaves: Pills -->
+  <g transform="translate(330, 310)">
+    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill"/>
+    <text dy="5" class="label-sub">Pandas</text>
+  </g>
+
+  <g transform="translate(470, 310)">
+    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill" style="animation-delay: 0.8s;"/>
+    <text dy="5" class="label-sub">NumPy</text>
+  </g>
+
+</svg>
