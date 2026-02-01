@@ -1,8 +1,10 @@
 [![GitHub ReadMe Header](https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif)](https://github.com/Luc0-0/Luc0-0)
 
+---
+
 <div align="center">
 
-# Nipun Sujesh
+## Nipun Sujesh
 
 **AI/ML Engineer** | **Full-Stack Developer** | **NLP Researcher**
 
@@ -10,27 +12,67 @@
 
 ---
 
+<!-- GitHub Stats Cards -->
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Luc0-0&theme=transparent&hide_border=true&bg_color=0D1117&title_color=D4AF37&text_color=E0E0E0&icon_color=D4AF37&show_icons=true)](https://github.com/Luc0-0)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Luc0-0&theme=transparent&hide_border=true&bg_color=0D1117&title_color=D4AF37&text_color=E0E0E0&layout=compact)](https://github.com/Luc0-0)
+
+</div>
+
+---
+
+## At a Glance
+
+```html
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║  Public Repositories    24                                     ║
+║  GitHub Member Since    February 2025                          ║
+║  Focus Areas            NLP • ML • Full-Stack                  ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## Tech Stack
+
 <table>
 <tr>
 <td width="50%">
 
-### Core Stats
+**Core Languages**
 ```
-696    Total Contributions
-18     Public Repositories  
-3.2K   Stars Earned
-2025   Active Since
+Python      ████████░░ 85%
+JavaScript  ███████░░░ 70%
+```
+
+**ML & NLP**
+```
+PyTorch
+Hugging Face Transformers
+scikit-learn
+TensorFlow
 ```
 
 </td>
 <td width="50%">
 
-### Focus Areas
+**Data & Analysis**
 ```
-NLP & Transformers
-Deep Learning Systems
-Research Implementation
-Full-Stack Development
+pandas, NumPy
+matplotlib, seaborn
+Jupyter Notebook
+```
+
+**Web & Backend**
+```
+Flask, REST APIs
+React Frontend
+Firebase
+Git, GitHub
 ```
 
 </td>
@@ -39,33 +81,28 @@ Full-Stack Development
 
 ---
 
-## Technical Foundation
+## Featured Projects
 
-<table>
-<tr>
-<td>
+<table border="1" style="border-color: #D4AF37; border-radius: 8px;">
+<tr style="background-color: #0D1117; border-bottom: 2px solid #D4AF37;">
+<td width="50%" style="padding: 15px; border-right: 2px solid #D4AF37;">
 
-**Languages**
-- Python
-- JavaScript
-
-**ML Stack**
-- PyTorch
-- Hugging Face
-- scikit-learn
+### XLNet Emotion Classifier
+Transformer-based multi-class emotion detection system. Fine-tuned on labeled datasets with performance analysis across emotion classes.
 
 </td>
-<td>
+<td width="50%" style="padding: 15px;">
 
-**Data Pipeline**
-- pandas, NumPy
-- TensorFlow Datasets
-- Evaluation Frameworks
+### Fake News Detection
+Classical NLP baseline using Logistic Regression and Linear SVM. Achieved 87% test accuracy with focus on model interpretability.
 
-**Infrastructure**
-- Flask, REST APIs
-- React Frontend
-- Firebase Backend
+</td>
+</tr>
+<tr style="background-color: #0D1117;">
+<td colspan="2" style="padding: 15px; border-top: 2px solid #D4AF37;">
+
+### SAMARTH — Government Data Q&A
+Retrieval-augmented question-answering system over Indian public datasets. Production-oriented design for reliable, traceable outputs.
 
 </td>
 </tr>
@@ -75,54 +112,44 @@ Full-Stack Development
 
 ## Current Research
 
-### Emotion-Aware NLP for Mental Health
+<div style="border-left: 3px solid #D4AF37; padding: 15px; background-color: #0D1117;">
 
-Investigating emotion detection across classical and transformer-based architectures. Focus: accuracy metrics, interpretability, and responsible deployment in sensitive domains.
+### Emotion-Aware NLP for Mental Health Support
 
-**Progress:** Research paper in preparation
+Investigating emotion detection using classical NLP methods and transformer architectures. Research focused on accuracy, interpretability, and responsible AI in mental health contexts.
 
----
+**Status:** Research paper in preparation
 
-## Featured Work
-
-### XLNet Emotion Classifier
-Transformer-based multi-class emotion detector. Performance analysis across datasets with detailed confusion matrix interpretation.
-
-### Fake News Detection Baseline  
-Classical NLP approach using Logistic Regression and Linear SVM. 87% test accuracy with emphasis on model transparency.
-
-### SAMARTH — Government Data Q&A
-Retrieval-augmented system over Indian public datasets. Production-oriented design for reliable, traceable outputs.
+</div>
 
 ---
 
-## Expertise
+## Skills Matrix
 
-| Domain | Tools & Methods |
-|--------|-----------------|
-| **NLP** | BERT, XLNet, TF-IDF, Transformers |
-| **ML** | Supervised Learning, Neural Networks, Evaluation Metrics |
-| **Data** | pandas, NumPy, scikit-learn |
-| **Web** | Flask, React, REST APIs |
+| Category | Expertise |
+|----------|-----------|
+| **NLP** | BERT, XLNet, TF-IDF, Text Classification, Sentiment Analysis |
+| **Deep Learning** | PyTorch, Neural Networks, Transfer Learning, Fine-tuning |
+| **ML** | Supervised Learning, Evaluation Metrics, Model Optimization |
+| **Data Engineering** | Data Pipeline, Feature Engineering, Visualization |
+| **Web Development** | Flask APIs, React, REST Architecture, Firebase |
 
 ---
 
 ## Certifications
 
-- IBM AI Developer Professional
-- Microsoft Azure AI Fundamentals
-- Python for Data Science
+- **IBM AI Developer Professional** Certificate
+- **Microsoft Azure AI Fundamentals**
+- **Python for Data Science** (IBM)
 
 ---
+
+## Connect
 
 <div align="center">
 
-**Emotion-Aware NLP** · **Mental Health AI** · **Model Interpretability** · **Research to Production**
-
----
-
-Open to collaborations on NLP and ML systems.
-
 [Portfolio](https://nipun.space) · [LinkedIn](https://linkedin.com/in/nipun-sujesh) · [Email](mailto:nipunsujesh28@gmail.com)
+
+Focused on: **Emotion-Aware NLP** · **Mental Health AI** · **Model Interpretability** · **Research → Production**
 
 </div>
