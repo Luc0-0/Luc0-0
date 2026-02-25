@@ -6,10 +6,14 @@
 
 <img src="./header/divider.svg" width="100%" />
 
-> `Nipun Sujesh` &nbsp;·&nbsp; AI/ML + Full-Stack &nbsp;·&nbsp; Research-Driven
->
-> I work in the space between a research paper and a deployed system.
-> From raw data to production APIs — that's the gap I close.
+```
+  Nipun Sujesh
+  ────────────────────────────────────────────────────────────────
+  AI/ML + Full-Stack  ·  Research-Driven  ·  End-to-End
+
+  I work in the space between a research paper and a deployed system.
+  From raw data to production APIs — that's the gap I close.
+```
 
 <a href="https://nipun.space" target="_blank"><img src="./header/portfolio.svg" alt="Portfolio" height="36" /></a>&nbsp;<a href="https://linkedin.com/in/nipun-sujesh" target="_blank"><img src="./header/linkedin.svg" alt="LinkedIn" height="36" /></a>&nbsp;<a href="mailto:nipunsujesh28@gmail.com"><img src="./header/email.svg" alt="Email" height="36" /></a>
 
