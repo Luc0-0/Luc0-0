@@ -1,140 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <style>
-      /* Typography */
-      .label-main { font-family: 'Segoe UI', Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #C6A875; text-anchor: middle; letter-spacing: 1px; }
-      .label-sub { font-family: 'Segoe UI', Helvetica, sans-serif; font-size: 11px; font-weight: 600; fill: #8b949e; text-anchor: middle; }
-      .label-core { font-family: 'Segoe UI', Helvetica, sans-serif; font-size: 18px; font-weight: 800; fill: #FFB11A; text-anchor: middle; letter-spacing: 2px; }
-
-      /* Geometry Styles */
-      .core { fill: #161b22; stroke: #C6A875; stroke-width: 2; }
-      .node-pill { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 14; ry: 14; }
-      
-      /* Animation: Continuous Flow */
-      .synapse { stroke: #C6A875; stroke-width: 1.5; opacity: 0.2; stroke-linecap: round; }
-      .signal { 
-        fill: none;
-        stroke: #FFB11A; 
-        stroke-width: 1.5; 
-        stroke-dasharray: 4 6; 
-        stroke-linecap: round;
-        animation: flow 1s linear infinite; 
-        opacity: 0.8;
-        filter: url(#glow); 
+      .bg { fill: #0d1117; }
+      .card-border { fill: none; stroke: #21262d; stroke-width: 1; }
+      .mono-label {
+        font-family: "Courier New", monospace;
+        font-size: 9px;
+        fill: #FFB11A;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        opacity: 0.7;
       }
-      
-      @keyframes flow {
-        from { stroke-dashoffset: 10; }
-        to { stroke-dashoffset: 0; }
+      .cat {
+        font-family: "Courier New", monospace;
+        font-size: 8px;
+        fill: #3d4450;
+        letter-spacing: 2px;
+        text-transform: uppercase;
       }
-      
-      /* Subtle Pulse for Nodes */
-      .active-pill { stroke: #C6A875; stroke-opacity: 0.6; animation: border-pulse 4s ease-in-out infinite alternate; }
-      @keyframes border-pulse {
-        from { stroke-opacity: 0.4; stroke-width: 1; }
-        to { stroke-opacity: 0.9; stroke-width: 1.5; }
+      .tech {
+        font-family: "Courier New", monospace;
+        font-size: 11px;
+        fill: #8b949e;
+        letter-spacing: 0.5px;
       }
+      .tech-hover {
+        font-family: "Courier New", monospace;
+        font-size: 11px;
+        fill: #e6edf3;
+        letter-spacing: 0.5px;
+      }
+      .col-line { stroke: #21262d; stroke-width: 0.6; }
     </style>
   </defs>
 
-  <!-- CONNECTIONS Layer (Back) -->
-  
-  <!-- Left Branch (NLP) -->
-  <line x1="400" y1="175" x2="200" y2="100" class="synapse" />
-  <line x1="400" y1="175" x2="200" y2="100" class="signal" />
-  
-  <!-- Right Branch (DEV) -->
-  <line x1="400" y1="175" x2="600" y2="100" class="synapse" />
-  <line x1="400" y1="175" x2="600" y2="100" class="signal" />
+  <rect width="800" height="200" class="bg"/>
+  <rect x="0.5" y="0.5" width="799" height="199" class="card-border"/>
+  <rect x="0" y="0" width="3" height="200" fill="#FFB11A" opacity="0.5"/>
 
-  <!-- Bottom Branch (DATA) - FIXED: Using line explicitly to ensure rendering -->
-  <line x1="400" y1="175" x2="400" y2="280" class="synapse" />
-  <line x1="400" y1="175" x2="400" y2="280" class="signal" />
+  <text x="24" y="26" class="mono-label">Technical Arsenal</text>
+  <line x1="24" y1="33" x2="776" y2="33" stroke="#21262d" stroke-width="0.6"/>
 
-  <!-- Sub-Connections NLP -->
-  <line x1="200" y1="100" x2="100" y2="70" class="synapse"/> <line x1="200" y1="100" x2="100" y2="70" class="signal"/>
-  <line x1="200" y1="100" x2="150" y2="40" class="synapse"/> <line x1="200" y1="100" x2="150" y2="40" class="signal"/>
-  <line x1="200" y1="100" x2="280" y2="50" class="synapse"/> <line x1="200" y1="100" x2="280" y2="50" class="signal"/>
+  <!-- Column 1: AI / ML -->
+  <text x="48" y="54" class="cat">AI · ML</text>
+  <text x="48" y="74" class="tech">Python</text>
+  <text x="48" y="92" class="tech">PyTorch</text>
+  <text x="48" y="110" class="tech">TensorFlow</text>
+  <text x="48" y="128" class="tech">HuggingFace</text>
+  <text x="48" y="146" class="tech">XLNet / BERT</text>
+  <text x="48" y="164" class="tech">Scikit-learn</text>
 
-  <!-- Sub-Connections DEV -->
-  <line x1="600" y1="100" x2="520" y2="50" class="synapse"/> <line x1="600" y1="100" x2="520" y2="50" class="signal"/>
-  <line x1="600" y1="100" x2="650" y2="40" class="synapse"/> <line x1="600" y1="100" x2="650" y2="40" class="signal"/>
-  <line x1="600" y1="100" x2="700" y2="70" class="synapse"/> <line x1="600" y1="100" x2="700" y2="70" class="signal"/>
+  <line x1="210" y1="44" x2="210" y2="180" class="col-line"/>
 
-  <!-- Sub-Connections DATA -->
-  <line x1="400" y1="280" x2="330" y2="310" class="synapse"/> <line x1="400" y1="280" x2="330" y2="310" class="signal"/>
-  <line x1="400" y1="280" x2="470" y2="310" class="synapse"/> <line x1="400" y1="280" x2="470" y2="310" class="signal"/>
+  <!-- Column 2: Backend -->
+  <text x="230" y="54" class="cat">Backend</text>
+  <text x="230" y="74" class="tech">FastAPI</text>
+  <text x="230" y="92" class="tech">Node.js</text>
+  <text x="230" y="110" class="tech">PostgreSQL</text>
+  <text x="230" y="128" class="tech">MongoDB</text>
+  <text x="230" y="146" class="tech">REST APIs</text>
+  <text x="230" y="164" class="tech">WebSockets</text>
 
+  <line x1="390" y1="44" x2="390" y2="180" class="col-line"/>
 
-  <!-- NODES Layer (Front) -->
+  <!-- Column 3: Frontend -->
+  <text x="410" y="54" class="cat">Frontend</text>
+  <text x="410" y="74" class="tech">React</text>
+  <text x="410" y="92" class="tech">TypeScript</text>
+  <text x="410" y="110" class="tech">Next.js</text>
+  <text x="410" y="128" class="tech">Tailwind</text>
+  <text x="410" y="146" class="tech">Framer Motion</text>
 
-  <!-- CENTER CORE: Hexagon -->
-  <path d="M370 175 L 385 150 L 415 150 L 430 175 L 415 200 L 385 200 Z" class="core" filter="url(#glow)" />
-  <text x="400" y="182" class="label-core">AI</text>
+  <line x1="570" y1="44" x2="570" y2="180" class="col-line"/>
 
-  <!-- === NLP BRANCH (Left) === -->
-  <!-- Node: NLP -->
-  <circle cx="200" cy="100" r="28" fill="#161b22" stroke="#C6A875" stroke-width="1.5"/>
-  <text x="200" y="105" class="label-main">NLP</text>
+  <!-- Column 4: Cloud / DevOps -->
+  <text x="590" y="54" class="cat">Cloud · Ops</text>
+  <text x="590" y="74" class="tech">Azure</text>
+  <text x="590" y="92" class="tech">Docker</text>
+  <text x="590" y="110" class="tech">Git / GitHub</text>
+  <text x="590" y="128" class="tech">CI / CD</text>
+  <text x="590" y="146" class="tech">Linux</text>
 
-  <!-- Leaves: Pills -->
-  <g transform="translate(100, 70)">
-    <rect x="-40" y="-14" width="80" height="28" class="node-pill active-pill"/>
-    <text dy="5" class="label-sub">PyTorch</text>
-  </g>
-
-  <g transform="translate(150, 40)">
-    <rect x="-50" y="-14" width="100" height="28" class="node-pill active-pill" style="animation-delay: 1s;"/>
-    <text dy="5" class="label-sub">Transformers</text>
-  </g>
-
-  <g transform="translate(280, 50)">
-    <rect x="-40" y="-14" width="80" height="28" class="node-pill active-pill" style="animation-delay: 0.5s;"/>
-    <text dy="5" class="label-sub">Scikit-Learn</text>
-  </g>
-
-  <!-- === DEV BRANCH (Right) === -->
-  <!-- Node: DEV -->
-  <circle cx="600" cy="100" r="28" fill="#161b22" stroke="#C6A875" stroke-width="1.5"/>
-  <text x="600" y="105" class="label-main">DEV</text>
-
-  <!-- Leaves: Pills -->
-  <g transform="translate(520, 50)">
-    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill"/>
-    <text dy="5" class="label-sub">React</text>
-  </g>
-
-  <g transform="translate(650, 40)">
-    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill" style="animation-delay: 1.2s;"/>
-    <text dy="5" class="label-sub">Flask</text>
-  </g>
-
-  <g transform="translate(700, 70)">
-    <rect x="-30" y="-14" width="60" height="28" class="node-pill active-pill" style="animation-delay: 0.3s;"/>
-    <text dy="5" class="label-sub">Git</text>
-  </g>
-
-  <!-- === DATA BRANCH (Bottom) === -->
-  <!-- Node: DATA -->
-  <circle cx="400" cy="280" r="28" fill="#161b22" stroke="#C6A875" stroke-width="1.5"/>
-  <text x="400" y="285" class="label-main">DATA</text>
-
-  <!-- Leaves: Pills -->
-  <g transform="translate(330, 310)">
-    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill"/>
-    <text dy="5" class="label-sub">Pandas</text>
-  </g>
-
-  <g transform="translate(470, 310)">
-    <rect x="-35" y="-14" width="70" height="28" class="node-pill active-pill" style="animation-delay: 0.8s;"/>
-    <text dy="5" class="label-sub">NumPy</text>
-  </g>
-
+  <!-- bottom rule -->
+  <line x1="24" y1="182" x2="776" y2="182" stroke="#21262d" stroke-width="0.6"/>
+  <text x="24" y="196" class="cat" style="letter-spacing:1px; opacity:0.4;">end-to-end  ·  research to production</text>
 </svg>
