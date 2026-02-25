@@ -1,46 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
   <defs>
     <style>
-      .sig-path { fill: none; stroke: #C6A875; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-      .sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 9px; fill: #8b949e; text-anchor: middle; letter-spacing: 2px; text-transform: uppercase; }
+      .sig-path {
+        fill: none;
+        stroke: #FFB11A;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0.9;
+      }
+      .sub {
+        font-family: "Courier New", monospace;
+        font-size: 8px;
+        fill: #3d4450;
+        text-anchor: middle;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
     </style>
   </defs>
-  
-  <g transform="translate(60, 10)">
-      <!-- N -->
-      <path d="M10 50 L 10 20 L 30 50 L 30 20" class="sig-path"/>
-      
-      <!-- i -->
-      <path d="M40 30 L 40 50 M 40 22 L 40 24" class="sig-path"/>
-      
-      <!-- p -->
-      <path d="M50 30 L 50 60 M 50 35 Q 65 35 65 42 Q 65 50 50 50" class="sig-path"/>
-      
-      <!-- u -->
-      <path d="M75 30 L 75 45 Q 80 50 85 45 L 85 30" class="sig-path"/>
-      
-      <!-- n -->
-      <path d="M95 30 L 95 50 M 95 35 Q 110 32 110 50" class="sig-path"/>
 
-      <!-- S -->
-      <path d="M130 50 Q 120 50 120 40 Q 120 30 140 30 Q 150 30 150 20" class="sig-path" opacity="0" /> <!-- Skip Uppercase S complex curve, simple S below -->
-      <path d="M135 22 Q 120 22 125 35 Q 130 48 120 50" class="sig-path"/> <!-- Simple S shape -->
+  <g transform="translate(50, 8)">
+    <!-- N -->
+    <path d="M0 48 L0 18 L18 48 L18 18" class="sig-path"/>
+    <!-- i -->
+    <path d="M26 28 L26 48" class="sig-path"/>
+    <circle cx="26" cy="22" r="1.2" fill="#FFB11A" opacity="0.9"/>
+    <!-- p -->
+    <path d="M34 28 L34 60 M34 33 Q47 30 47 40 Q47 50 34 50" class="sig-path"/>
+    <!-- u -->
+    <path d="M55 28 L55 44 Q60 52 66 44 L66 28" class="sig-path"/>
+    <!-- n -->
+    <path d="M74 28 L74 50 M74 34 Q87 28 88 50" class="sig-path"/>
 
-      <!-- u -->
-      <path d="M140 30 L 140 45 Q 145 50 150 45 L 150 30" class="sig-path"/>
-
-      <!-- j -->
-      <path d="M160 30 L 160 60 Q 155 65 150 62 M 160 22 L 160 24" class="sig-path"/>
-
-      <!-- e -->
-      <path d="M170 40 L 180 40 Q 180 30 170 30 Q 165 30 165 40 Q 165 50 175 50" class="sig-path"/>
-
-      <!-- s -->
-      <path d="M195 35 Q 185 35 188 42 Q 192 48 185 50" class="sig-path"/>
-
-      <!-- h -->
-      <path d="M205 20 L 205 50 M 205 35 Q 220 32 220 50" class="sig-path"/>
+    <!-- space then S -->
+    <path d="M106 24 Q95 24 98 35 Q102 46 94 50" class="sig-path"/>
+    <!-- u -->
+    <path d="M112 28 L112 44 Q117 52 123 44 L123 28" class="sig-path"/>
+    <!-- j -->
+    <path d="M131 28 L131 58 Q126 64 121 60" class="sig-path"/>
+    <circle cx="131" cy="22" r="1.2" fill="#FFB11A" opacity="0.9"/>
+    <!-- e -->
+    <path d="M140 40 Q140 28 150 28 Q158 28 158 40 Q158 52 148 52" class="sig-path"/>
+    <path d="M140 40 L158 40" class="sig-path"/>
+    <!-- s -->
+    <path d="M172 32 Q162 32 165 40 Q168 48 160 52" class="sig-path"/>
+    <!-- h -->
+    <path d="M178 18 L178 50 M178 34 Q191 28 192 50" class="sig-path"/>
   </g>
 
-  <text x="150" y="75" class="sub">Designed by Nipun</text>
+  <text x="150" y="76" class="sub">Nipun Sujesh</text>
 </svg>
