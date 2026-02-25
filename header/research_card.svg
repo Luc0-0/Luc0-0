@@ -1,37 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140">
   <defs>
-    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#161b22;stop-opacity:0.95" />
-      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0.95" />
-    </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/>
-    </filter>
-    <filter id="gold-glow">
-      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#FFB11A" flood-opacity="0.4"/>
-    </filter>
     <style>
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #e6edf3; }
-      .badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 800; fill: #FFB11A; letter-spacing: 2px; text-transform: uppercase; }
-      .desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; fill: #8b949e; line-height: 1.6; }
-      .highlight { fill: #d2a8ff; font-weight: 600; } 
+      .bg { fill: #0d1117; }
+      .card-border { fill: none; stroke: #21262d; stroke-width: 1; }
+      .accent-line { stroke: #FFB11A; stroke-width: 1; opacity: 0.7; }
+      .tag-bg { fill: #FFB11A; opacity: 0.08; }
+      .tag-border { fill: none; stroke: #FFB11A; stroke-width: 0.6; opacity: 0.5; }
+      .mono-small {
+        font-family: "Courier New", monospace;
+        font-size: 9px;
+        fill: #FFB11A;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        opacity: 0.8;
+      }
+      .title {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 18px;
+        fill: #e6edf3;
+        letter-spacing: 0.5px;
+      }
+      .body {
+        font-family: "Courier New", monospace;
+        font-size: 10.5px;
+        fill: #8b949e;
+        letter-spacing: 0.3px;
+      }
+      .tag-text {
+        font-family: "Courier New", monospace;
+        font-size: 8px;
+        fill: #FFB11A;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        opacity: 0.9;
+      }
+      .dot { fill: #FFB11A; opacity: 0.6; }
     </style>
   </defs>
 
-  <!-- Card Background with subtle border -->
-  <rect x="10" y="10" width="780" height="200" rx="12" fill="url(#card-grad)" stroke="#30363d" stroke-width="1" filter="url(#shadow)"/>
-  
-  <!-- Left Accent Line -->
-  <rect x="10" y="30" width="4" height="160" fill="#FFB11A" rx="2" opacity="0.8"/>
+  <rect width="800" height="140" class="bg"/>
+  <rect x="0.5" y="0.5" width="799" height="139" class="card-border"/>
 
-  <!-- Status Text (No Pill) -->
-  <text x="40" y="50" class="badge" filter="url(#gold-glow)">● Paper In Preparation | 2025</text>
+  <!-- left gold accent bar -->
+  <rect x="0" y="0" width="3" height="140" fill="#FFB11A" opacity="0.7"/>
 
-  <!-- Title -->
-  <text x="40" y="90" class="title">Emotion-Aware NLP for Mental Health Support</text>
+  <!-- top label -->
+  <text x="24" y="28" class="mono-small">Current Research  ·  2025</text>
 
-  <!-- Description lines manually spaced -->
-  <text x="40" y="130" class="desc">Investigating emotion detection from short-form text in mental health contexts.</text>
-  <text x="40" y="155" class="desc">Comparative analysis of <tspan class="highlight">classical NLP</tspan> vs <tspan class="highlight">Transformer models</tspan>.</text>
-  <text x="40" y="180" class="desc">Evaluating interpretability and failure modes in sensitive domains.</text>
+  <!-- divider -->
+  <line x1="24" y1="36" x2="776" y2="36" stroke="#21262d" stroke-width="0.6"/>
+
+  <!-- title -->
+  <text x="24" y="66" class="title">Emotion-Aware NLP</text>
+  <text x="24" y="88" class="body">Developing transformer pipelines that detect and respond to emotional context in text.</text>
+  <text x="24" y="103" class="body">XLNet-based architecture with custom affect layers. Focus: valence-arousal modelling.</text>
+
+  <!-- tags -->
+  <rect x="24" y="114" width="68" height="16" rx="2" class="tag-bg"/>
+  <rect x="24.5" y="114.5" width="67" height="15" rx="2" class="tag-border"/>
+  <text x="58" y="125.5" text-anchor="middle" class="tag-text">XLNet</text>
+
+  <rect x="100" y="114" width="52" height="16" rx="2" class="tag-bg"/>
+  <rect x="100.5" y="114.5" width="51" height="15" rx="2" class="tag-border"/>
+  <text x="126" y="125.5" text-anchor="middle" class="tag-text">NLP</text>
+
+  <rect x="160" y="114" width="100" height="16" rx="2" class="tag-bg"/>
+  <rect x="160.5" y="114.5" width="99" height="15" rx="2" class="tag-border"/>
+  <text x="210" y="125.5" text-anchor="middle" class="tag-text">Deep Learning</text>
+
+  <rect x="268" y="114" width="118" height="16" rx="2" class="tag-bg"/>
+  <rect x="268.5" y="114.5" width="117" height="15" rx="2" class="tag-border"/>
+  <text x="327" y="125.5" text-anchor="middle" class="tag-text">Affect Computing</text>
+
+  <!-- status indicator -->
+  <circle cx="752" cy="72" r="4" fill="#FFB11A" opacity="0.15"/>
+  <circle cx="752" cy="72" r="2.5" fill="#FFB11A" opacity="0.5"/>
+  <circle cx="752" cy="72" r="1.2" fill="#FFB11A"/>
+  <text x="740" y="90" text-anchor="middle" class="mono-small" style="font-size:8px; opacity:0.5;">ACTIVE</text>
 </svg>
