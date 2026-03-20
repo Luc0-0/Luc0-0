@@ -1,46 +1,40 @@
-<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#151922;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0f131a;stop-opacity:1" />
+    <linearGradient id="notesBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f14" />
+      <stop offset="100%" stop-color="#151c25" />
     </linearGradient>
+    <pattern id="notesGrid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M14 0 H0 V14" fill="none" stroke="#1b222c" stroke-width="0.6" />
+    </pattern>
   </defs>
 
-  <rect width="800" height="200" fill="url(#bgGrad2)" />
-  <rect x="1" y="1" width="798" height="198" fill="none" stroke="#2b303a" stroke-width="1" rx="8"/>
+  <rect width="800" height="150" fill="url(#notesBg)" />
+  <rect width="800" height="150" fill="url(#notesGrid)" opacity="0.2" />
+  <rect x="1" y="1" width="798" height="148" rx="8" fill="none" stroke="#2b303a" stroke-width="1" />
 
-  <!-- Icon -->
-  <g transform="translate(60, 50)">
-    <rect x="-15" y="-15" width="30" height="30" fill="none" stroke="#b6a891" stroke-width="1.4" rx="2"/>
-    <rect x="-10" y="-10" width="20" height="20" fill="none" stroke="#8f98a8" stroke-width="1" rx="1"/>
-    <circle cx="-5" cy="-3" r="2" fill="#8f98a8"/>
-    <circle cx="5" cy="-3" r="2" fill="#8f98a8"/>
+  <g transform="translate(56,40)">
+    <rect x="-12" y="-12" width="24" height="24" fill="none" stroke="#b6a891" stroke-width="1.2" rx="2" />
+    <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="#8f98a8" stroke-width="1" rx="1" />
   </g>
 
-  <!-- Content -->
-  <text x="120" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#eceff4">Smart Notes</text>
-  <text x="120" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9aa4b4">Intelligent Full-Stack Note Application</text>
-  
-  <!-- Tech Stack -->
-  <g id="tech-pills2">
-    <rect x="120" y="100" width="75" height="22" rx="4" fill="#1c2230" stroke="#2f3642" stroke-width="0.7"/>
-    <text x="128" y="115" font-family="monospace" font-size="11" fill="#a8b1bf">TypeScript</text>
-    
-    <rect x="205" y="100" width="60" height="22" rx="4" fill="#1c2230" stroke="#2f3642" stroke-width="0.7"/>
-    <text x="213" y="115" font-family="monospace" font-size="11" fill="#a8b1bf">React</text>
-    
-    <rect x="275" y="100" width="68" height="22" rx="4" fill="#1c2230" stroke="#2f3642" stroke-width="0.7"/>
-    <text x="282" y="115" font-family="monospace" font-size="11" fill="#a8b1bf">Firebase</text>
+  <text x="110" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#eceff4">Smart Notes</text>
+  <text x="110" y="56" font-family="Consolas, monospace" font-size="10" fill="#8f98a8" letter-spacing="1.2">INTELLIGENT FULL-STACK NOTES</text>
+
+  <g>
+    <rect x="110" y="74" width="70" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
+    <text x="118" y="86" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">TypeScript</text>
+    <rect x="186" y="74" width="52" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
+    <text x="197" y="86" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">React</text>
+    <rect x="244" y="74" width="60" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
+    <text x="252" y="86" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">Firebase</text>
   </g>
 
-  <!-- Stats -->
-  <g id="stats2">
-    <text x="620" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#eceff4">AI-Powered</text>
-    <text x="620" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9aa4b4">Smart Organization</text>
-    
-    <line x1="620" y1="85" x2="760" y2="85" stroke="#2b303a" stroke-width="0.7"/>
-    
-    <text x="620" y="105" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#b6a891">• Rich Editor</text>
-    <text x="620" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#8f98a8">• Cloud Sync</text>
+  <g>
+    <text x="610" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#eceff4">AI-Powered</text>
+    <text x="610" y="54" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9aa4b4">Smart Organization</text>
+    <line x1="610" y1="64" x2="760" y2="64" stroke="#2b303a" stroke-width="0.7" />
+    <text x="610" y="80" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#b6a891">- Rich Editor</text>
+    <text x="610" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8f98a8">- Cloud Sync</text>
   </g>
 </svg>

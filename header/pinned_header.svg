@@ -1,25 +1,31 @@
-<svg viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 88" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="headerGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#12151d;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0d1016;stop-opacity:1" />
+    <linearGradient id="luxHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f14" />
+      <stop offset="100%" stop-color="#141b24" />
     </linearGradient>
+    <linearGradient id="luxEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2b323d" />
+      <stop offset="100%" stop-color="#1b212b" />
+    </linearGradient>
+    <pattern id="microGrid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M12 0 H0 V12" fill="none" stroke="#1b212b" stroke-width="0.6" />
+    </pattern>
   </defs>
 
-  <rect width="800" height="120" fill="url(#headerGradDark)" />
-  <rect x="0" y="0" width="800" height="1" fill="#2a303b" />
-  <rect x="0" y="119" width="800" height="1" fill="#2a303b" />
+  <rect width="800" height="88" fill="url(#luxHeader)" />
+  <rect width="800" height="88" fill="url(#microGrid)" opacity="0.25" />
+  <rect x="0" y="0" width="800" height="1" fill="url(#luxEdge)" />
+  <rect x="0" y="87" width="800" height="1" fill="url(#luxEdge)" />
 
-  <text x="40" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#eceff4">Pinned Projects</text>
-  <text x="40" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9aa4b4">Serenity leads as capstone with production-focused systems work</text>
+  <text x="36" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#eceff4">Signature Projects</text>
+  <text x="36" y="56" font-family="Consolas, monospace" font-size="10" fill="#8f98a8" letter-spacing="1.6">CAPSTONE-LED · PRODUCTION SYSTEMS</text>
 
-  <g id="stats-right">
-    <text x="570" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8f98a8">GitHub Snapshot</text>
-    
-    <text x="570" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#eceff4">27</text>
-    <text x="600" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9aa4b4">Public Repos</text>
-    
-    <text x="570" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#eceff4">861</text>
-    <text x="600" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9aa4b4">Commits</text>
+  <g>
+    <text x="560" y="28" font-family="Consolas, monospace" font-size="9" fill="#8f98a8" letter-spacing="1.4">SNAPSHOT</text>
+    <text x="560" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#b6a891">27</text>
+    <text x="590" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9aa4b4">Repos</text>
+    <text x="650" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#b6a891">861</text>
+    <text x="680" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9aa4b4">Commits</text>
   </g>
 </svg>
