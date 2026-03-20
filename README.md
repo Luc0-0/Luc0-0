@@ -1,4 +1,12 @@
-﻿<div align="center">
+﻿[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=15&pause=1200&color=B6A891&center=true&vCenter=true&width=800&height=36&lines=building+capstones+carefully.;thinking+deeply.;learning+continuously.;shipping+quiet+craft.;making+machines+understand." alt="Typing SVG" />
+</div>
+
+<img src="./header/divider_luxury.svg" width="100%" />
+
+<div align="center">
 
 ### Nipun Sujesh
 
@@ -72,14 +80,6 @@ End-to-End Solutions
 <img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=b6a891&label=VISITORS" />
 
 </div>
-
-[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=15&pause=1200&color=B6A891&center=true&vCenter=true&width=800&height=36&lines=building+capstones+carefully.;thinking+deeply.;learning+continuously.;shipping+quiet+craft.;making+machines+understand." alt="Typing SVG" />
-</div>
-
-<img src="./header/divider_luxury.svg" width="100%" />
 
 <div align="center">
 
