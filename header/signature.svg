@@ -3,7 +3,7 @@
     <style>
       .sig-path {
         fill: none;
-        stroke: #FFB11A;
+        stroke: #b6a891;
         stroke-width: 1.5;
         stroke-linecap: round;
         stroke-linejoin: round;
@@ -25,7 +25,7 @@
     <path d="M0 48 L0 18 L18 48 L18 18" class="sig-path"/>
     <!-- i -->
     <path d="M26 28 L26 48" class="sig-path"/>
-    <circle cx="26" cy="22" r="1.2" fill="#FFB11A" opacity="0.9"/>
+    <circle cx="26" cy="22" r="1.2" fill="#b6a891" opacity="0.9"/>
     <!-- p -->
     <path d="M34 28 L34 60 M34 33 Q47 30 47 40 Q47 50 34 50" class="sig-path"/>
     <!-- u -->
@@ -39,7 +39,7 @@
     <path d="M112 28 L112 44 Q117 52 123 44 L123 28" class="sig-path"/>
     <!-- j -->
     <path d="M131 28 L131 58 Q126 64 121 60" class="sig-path"/>
-    <circle cx="131" cy="22" r="1.2" fill="#FFB11A" opacity="0.9"/>
+    <circle cx="131" cy="22" r="1.2" fill="#b6a891" opacity="0.9"/>
     <!-- e -->
     <path d="M140 40 Q140 28 150 28 Q158 28 158 40 Q158 52 148 52" class="sig-path"/>
     <path d="M140 40 L158 40" class="sig-path"/>

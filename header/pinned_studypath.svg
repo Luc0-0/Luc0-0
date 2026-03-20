@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#151922;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f131a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="200" fill="url(#bgGrad5)" />
+  <rect x="1" y="1" width="798" height="198" fill="none" stroke="#2b303a" stroke-width="1" rx="8"/>
+
+  <!-- Icon -->
+  <g transform="translate(60, 50)">
+    <path d="M -8 8 L -8 -8 M -2 8 L -2 -4 M 4 8 L 4 -2 M 10 8 L 10 2" stroke="#b6a891" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <line x1="-12" y1="-6" x2="14" y2="-6" stroke="#8f98a8" stroke-width="1.5"/>
+  </g>
+
+  <!-- Content -->
+  <text x="120" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#eceff4">StudyPath</text>
+  <text x="120" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9aa4b4">Adaptive Learning Path Visualization</text>
+  
+  <!-- Tech Stack -->
+  <g id="tech-pills5">
+    <rect x="120" y="100" width="75" height="22" rx="4" fill="#1c2230" stroke="#2f3642" stroke-width="0.7"/>
+    <text x="128" y="115" font-family="monospace" font-size="11" fill="#a8b1bf">React</text>
+    
+    <rect x="205" y="100" width="70" height="22" rx="4" fill="#1c2230" stroke="#2f3642" stroke-width="0.7"/>
+    <text x="217" y="115" font-family="monospace" font-size="11" fill="#a8b1bf">D3.js</text>
+    
+    <rect x="285" y="100" width="72" height="22" rx="4" fill="#1c2230" stroke="#2f3642" stroke-width="0.7"/>
+    <text x="294" y="115" font-family="monospace" font-size="11" fill="#a8b1bf">Node.js</text>
+  </g>
+
+  <!-- Stats -->
+  <g id="stats5">
+    <text x="620" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#eceff4">Interactive</text>
+    <text x="620" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9aa4b4">Learning Visualization</text>
+    
+    <line x1="620" y1="85" x2="760" y2="85" stroke="#2b303a" stroke-width="0.7"/>
+    
+    <text x="620" y="105" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#b6a891">• Milestone-Based</text>
+    <text x="620" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#8f98a8">• Progress Tracking</text>
+  </g>
+</svg>

@@ -2,8 +2,8 @@
   <defs>
     <style>
       .bg { fill: #0d1117; }
-      .border { fill: none; stroke: #FFB11A; stroke-width: 0.8; opacity: 0.6; }
-      .icon { fill: #FFB11A; }
+      .border { fill: none; stroke: #b6a891; stroke-width: 0.8; opacity: 0.75; }
+      .icon { fill: #b6a891; }
       .label {
         font-family: "Courier New", monospace;
         font-size: 9px;
@@ -18,7 +18,7 @@
   <!-- linkedin icon simplified -->
   <rect x="10" y="11" width="4" height="14" rx="0.5" class="icon"/>
   <circle cx="12" cy="9" r="2" class="icon"/>
-  <path d="M17 18 Q17 13 22 13 Q27 13 27 18 L27 25 L23 25 L23 19 Q23 16 20 16 Q18 16 18 19 L18 25 L17 25 Z" fill="#FFB11A"/>
+  <path d="M17 18 Q17 13 22 13 Q27 13 27 18 L27 25 L23 25 L23 19 Q23 16 20 16 Q18 16 18 19 L18 25 L17 25 Z" fill="#b6a891"/>
   <!-- label -->
   <text x="34" y="21" class="label">LinkedIn</text>
 </svg>

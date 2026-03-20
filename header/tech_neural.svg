@@ -6,7 +6,7 @@
       .mono-label {
         font-family: "Courier New", monospace;
         font-size: 9px;
-        fill: #FFB11A;
+        fill: #b6a891;
         letter-spacing: 2px;
         text-transform: uppercase;
         opacity: 0.7;
@@ -36,7 +36,7 @@
 
   <rect width="800" height="200" class="bg"/>
   <rect x="0.5" y="0.5" width="799" height="199" class="card-border"/>
-  <rect x="0" y="0" width="3" height="200" fill="#FFB11A" opacity="0.5"/>
+  <rect x="0" y="0" width="3" height="200" fill="#b6a891" opacity="0.5"/>
 
   <text x="24" y="26" class="mono-label">Technical Arsenal</text>
   <line x1="24" y1="33" x2="776" y2="33" stroke="#21262d" stroke-width="0.6"/>

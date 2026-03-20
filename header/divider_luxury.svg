@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dividerGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f1116;stop-opacity:0" />
+      <stop offset="18%" style="stop-color:#2b303a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#b6a891;stop-opacity:1" />
+      <stop offset="82%" style="stop-color:#2b303a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1116;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="60" fill="#0f1116" />
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#dividerGradDark)" stroke-width="1.2"/>
+
+  <circle cx="120" cy="30" r="1.8" fill="#8f98a8" opacity="0.45"/>
+  <circle cx="360" cy="30" r="1.8" fill="#8f98a8" opacity="0.45"/>
+  <circle cx="600" cy="30" r="2" fill="#b6a891" opacity="0.65"/>
+  <circle cx="840" cy="30" r="1.8" fill="#8f98a8" opacity="0.45"/>
+  <circle cx="1080" cy="30" r="1.8" fill="#8f98a8" opacity="0.45"/>
+</svg>

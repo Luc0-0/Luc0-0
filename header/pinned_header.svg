@@ -1,0 +1,25 @@
+<svg viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#12151d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1016;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="120" fill="url(#headerGradDark)" />
+  <rect x="0" y="0" width="800" height="1" fill="#2a303b" />
+  <rect x="0" y="119" width="800" height="1" fill="#2a303b" />
+
+  <text x="40" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#eceff4">Pinned Projects</text>
+  <text x="40" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9aa4b4">Serenity leads as capstone with production-focused systems work</text>
+
+  <g id="stats-right">
+    <text x="570" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8f98a8">GitHub Snapshot</text>
+    
+    <text x="570" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#eceff4">27</text>
+    <text x="600" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9aa4b4">Public Repos</text>
+    
+    <text x="570" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#eceff4">861</text>
+    <text x="600" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9aa4b4">Commits</text>
+  </g>
+</svg>

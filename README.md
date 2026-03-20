@@ -1,8 +1,8 @@
-<div align="center">
+﻿<div align="center">
 
 ### Nipun Sujesh
 
-AI/ML + Full-Stack Developer  ·  Research-Driven  · 
+AI/ML + Full-Stack Developer · Research-Driven ·
 End-to-End Solutions
 
 <sub>I work in the space between research and production—bridging data insights with deployed systems.</sub>
@@ -24,7 +24,7 @@ End-to-End Solutions
 <img src="./header/pinned_serenity.svg" width="100%" />
 <img src="./header/pinned_notes.svg" width="100%" />
 <img src="./header/pinned_samarth.svg" width="100%" />
-<img src="./header/pinned_kana.svg" width="100%" />
+<img src="./header/pinned_xlnet.svg" width="100%" />
 <img src="./header/pinned_studypath.svg" width="100%" />
 
 <img src="./header/divider_luxury.svg" width="100%" />
@@ -45,7 +45,7 @@ End-to-End Solutions
 
 <div align="center">
 
-![stars](https://img.shields.io/github/stars/Luc0-0?style=flat-square&color=9CA3AF&labelColor=F3F4F6&logo=star&logoColor=6B7280)&nbsp;&nbsp;![followers](https://img.shields.io/github/followers/Luc0-0?style=flat-square&color=9CA3AF&labelColor=F3F4F6&logo=github&logoColor=6B7280)&nbsp;&nbsp;![activity](https://img.shields.io/github/commit-activity/y/Luc0-0/Luc0-0?style=flat-square&color=9CA3AF&labelColor=F3F4F6&logo=git&logoColor=6B7280&label=activity)
+![stars](https://img.shields.io/github/stars/Luc0-0?style=flat-square&color=b6a891&labelColor=0f131a&logo=star&logoColor=d8dee9)&nbsp;&nbsp;![followers](https://img.shields.io/github/followers/Luc0-0?style=flat-square&color=8f98a8&labelColor=0f131a&logo=github&logoColor=d8dee9)&nbsp;&nbsp;![activity](https://img.shields.io/github/commit-activity/y/Luc0-0/Luc0-0?style=flat-square&color=8f98a8&labelColor=0f131a&logo=git&logoColor=d8dee9&label=activity)
 
 </div>
 
@@ -69,14 +69,14 @@ End-to-End Solutions
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=9CA3AF&label=VISITORS" />
+<img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=b6a891&label=VISITORS" />
 
 </div>
 
-[![](https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif)](https://github.com/Luc0-0/animated_banner)
+[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=15&pause=1200&color=9CA3AF&center=true&vCenter=true&width=800&height=36&lines=building+slowly.;thinking+deeply.;learning+continuously.;breaking+things+quietly.;making+machines+understand." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=15&pause=1200&color=B6A891&center=true&vCenter=true&width=800&height=36&lines=building+capstones+carefully.;thinking+deeply.;learning+continuously.;shipping+quiet+craft.;making+machines+understand." alt="Typing SVG" />
 </div>
 
 <img src="./header/divider_luxury.svg" width="100%" />
