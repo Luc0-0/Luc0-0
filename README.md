@@ -1,31 +1,51 @@
 ﻿[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=15&pause=1200&color=B6A891&center=true&vCenter=true&width=800&height=36&lines=building+capstones+carefully.;thinking+deeply.;learning+continuously.;shipping+quiet+craft.;making+machines+understand." alt="Typing SVG" />
-</div>
-
-<img src="./header/divider_luxury.svg" width="100%" />
-
-<div align="center">
 
 ### Nipun Sujesh
 
-AI/ML + Full-Stack Developer · Research-Driven ·
-End-to-End Solutions
+AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions
 
-<sub>I work in the space between research and production—bridging data insights with deployed systems.</sub>
+<sub>I build production systems at the intersection of research and delivery.</sub>
 
-</div>
-
-<div align="center">
- 
 <a href="https://nipun.space" target="_blank"><img src="./header/portfolio.svg" alt="Portfolio" height="36" /></a>&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/nipun-sujesh" target="_blank"><img src="./header/linkedin.svg" alt="LinkedIn" height="36" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:nipunsujesh28@gmail.com"><img src="./header/email.svg" alt="Email" height="36" /></a>
 
 </div>
 
 <img src="./header/divider_luxury.svg" width="100%" />
 
-### ✦ &nbsp;Pinned Projects
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Luc0-0&show_icons=true&include_all_commits=true&hide_title=true&hide_rank=true&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Luc0-0&background=0f1116&border=2b303a&stroke=2b303a&ring=b6a891&fire=b6a891&currStreakNum=eceff4&sideNums=eceff4&currStreakLabel=8f98a8&sideLabels=8f98a8&dates=8f98a8" height="165" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luc0-0&layout=compact&hide_border=false&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" height="140" />
+
+</div>
+
+<img src="./header/divider_luxury.svg" width="100%" />
+
+### ✦ &nbsp;Pinned Repositories (Live)
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=Serenity-Multi-Modal-Mental-Assistant-System&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=Smart-notes-by-Nipun&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=Samarth&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=xlnet-emotion-classifier&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=StudyPath&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
+
+</div>
+
+<img src="./header/divider_luxury.svg" width="100%" />
+
+### ✦ &nbsp;Signature Cards
 
 <img src="./header/pinned_header.svg" width="100%" />
 
@@ -78,13 +98,5 @@ End-to-End Solutions
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=b6a891&label=VISITORS" />
-
-</div>
-
-<div align="center">
-
-### Nipun Sujesh
-
-[Portfolio](https://nipun.space) · [LinkedIn](https://linkedin.com/in/nipun-sujesh) · [Email](mailto:nipunsujesh28@gmail.com)
 
 </div>
