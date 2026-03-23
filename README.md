@@ -75,31 +75,21 @@ AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions
 ### ✦ &nbsp;Impact & Contributions
 
 <div align="center">
-
-![stars](https://img.shields.io/github/stars/Luc0-0?style=flat-square&color=b6a891&labelColor=0f131a&logo=star&logoColor=d8dee9)&nbsp;&nbsp;![followers](https://img.shields.io/github/followers/Luc0-0?style=flat-square&color=8f98a8&labelColor=0f131a&logo=github&logoColor=d8dee9)&nbsp;&nbsp;![activity](https://img.shields.io/github/commit-activity/y/Luc0-0/Luc0-0?style=flat-square&color=8f98a8&labelColor=0f131a&logo=git&logoColor=d8dee9&label=activity)
-
-</div>
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake.svg">
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake.svg" width="100%">
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
 
 <img src="./header/divider_luxury.svg" width="100%" />
 
 <div align="center">
-
-**"The goal is not to be seen. The goal is to be understood."**
-
-<br/>
-
-<img src="./header/signature.svg" alt="Nipun Sujesh" width="260"/>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=b6a891&label=VISITORS" />
-
+  <br/>
+  <p><i>"Simplicity is the ultimate sophistication."</i></p>
+  <p><span style="color: #6a7382; font-size: 11.5px; letter-spacing: 2px;">— LEONARDO DA VINCI</span></p>
+  <br/>
+  <img src="./header/signature.svg" alt="Nipun Sujesh" width="220"/>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=8f98a8&labelColor=0b0f14&label=VISITORS" />
 </div>
