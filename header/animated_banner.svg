@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f14" />
+      <stop offset="100%" stop-color="#151c25" />
+    </linearGradient>
+    <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M14 0 H0 V14" fill="none" stroke="#2b303a" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    <style>
+      .text { font-family: "Courier New", monospace; font-size: 16px; fill: #b6a891; font-weight: bold; }
+      .cursor { fill: #b6a891; animation: blink 1s infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .line1 { clip-path: url(#clip1); }
+      .line2 { clip-path: url(#clip2); }
+      .line3 { clip-path: url(#clip3); }
+    </style>
+    <clipPath id="clip1">
+      <rect x="0" y="0" width="0" height="200">
+        <animate attributeName="width" values="0;600;600" dur="4s" keyTimes="0; 0.25; 1" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip2">
+      <rect x="0" y="0" width="0" height="200">
+        <animate attributeName="width" values="0;0;600;600" dur="4s" keyTimes="0; 0.25; 0.5; 1" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip3">
+      <rect x="0" y="0" width="0" height="200">
+        <animate attributeName="width" values="0;0;0;600;600" dur="4s" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+  <rect width="800" height="200" fill="url(#grid)" rx="12"/>
+  <rect x="0.5" y="0.5" width="799" height="199" fill="none" stroke="#2b303a" stroke-width="1" rx="12"/>
+  
+  <!-- Mac Buttons -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+
+  <!-- Typing Elements -->
+  <g transform="translate(25, 60)">
+    <text class="text line1" y="0">&gt; ssh root@godprofile.ai --connect</text>
+    <text class="text line2" y="30">&gt; DECRYPTING AURA_FORGE PROTOCOLS... [OK]</text>
+    <text class="text line3" y="60">&gt; WELCOME HOME, NIPUN. PROFILE ELEVATED.</text>
+    <rect class="cursor" x="420" y="48" width="10" height="16">
+      <animate attributeName="x" values="320; 320; 360; 360; 420; 420" dur="4s" keyTimes="0; 0.25; 0.26; 0.50; 0.51; 1" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-12; -12; 18; 18; 48; 48" dur="4s" keyTimes="0; 0.25; 0.26; 0.50; 0.51; 1" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

@@ -1,4 +1,8 @@
-[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
+<p align="center">
+  <a href="https://github.com/Luc0-0/GodProfile">
+    <img src="header/animated_banner.svg" alt="GodProfile Animated Banner">
+  </a>
+</p>
 
 <div align="center">
 
