@@ -1,4 +1,4 @@
-﻿[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
+[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
 
 <div align="center">
 
@@ -29,31 +29,34 @@ AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions
 
 <img src="./header/divider_luxury.svg" width="100%" />
 
-### ✦ &nbsp;Pinned Repositories (Live)
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=Serenity-Multi-Modal-Mental-Assistant-System&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=Smart-notes-by-Nipun&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=Samarth&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=xlnet-emotion-classifier&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Luc0-0&repo=StudyPath&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" />
-
-</div>
-
-<img src="./header/divider_luxury.svg" width="100%" />
-
-### ✦ &nbsp;Signature Cards
+### ✦ &nbsp;Signature Projects
 
 <img src="./header/pinned_header.svg" width="100%" />
 
-<img src="./header/pinned_serenity.svg" width="100%" />
-<img src="./header/pinned_notes.svg" width="100%" />
-<img src="./header/pinned_samarth.svg" width="100%" />
-<img src="./header/pinned_xlnet.svg" width="100%" />
-<img src="./header/pinned_studypath.svg" width="100%" />
+<div align="center">
+
+<a href="https://github.com/Luc0-0/Serenity-Multi-Modal-Mental-Assistant-System"><img src="./header/pinned_serenity.svg" width="100%" /></a>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/Luc0-0/Smart-notes-by-Nipun"><img src="./header/pinned_notes.svg" width="100%" /></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Luc0-0/Samarth"><img src="./header/pinned_samarth.svg" width="100%" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/Luc0-0/xlnet-emotion-classifier"><img src="./header/pinned_xlnet.svg" width="100%" /></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Luc0-0/StudyPath"><img src="./header/pinned_studypath.svg" width="100%" /></a>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 <img src="./header/divider_luxury.svg" width="100%" />
 
