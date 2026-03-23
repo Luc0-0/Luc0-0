@@ -86,8 +86,8 @@ AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions
 
 <div align="center">
   <br/>
-  <p><i>"Simplicity is the ultimate sophistication."</i></p>
-  <p><span style="color: #6a7382; font-size: 11.5px; letter-spacing: 2px;">— LEONARDO DA VINCI</span></p>
+  <p><i>"The best way to predict the future is to invent it."</i></p>
+  <p><span style="color: #6a7382; font-size: 11.5px; letter-spacing: 2px;">— ALAN KAY</span></p>
   <br/>
   <img src="./header/signature.svg" alt="Nipun Sujesh" width="220"/>
   <br/><br/>
