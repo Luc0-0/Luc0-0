@@ -1,0 +1,31 @@
+<svg width="400" height="202" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wkBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#151c25"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="202" rx="12" fill="url(#wkBg)" stroke="#2b303a" stroke-width="1"/>
+  <text x="16" y="24" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="700" fill="#eceff4">WakaTime — Weekly Coding Activity</text>
+  <line x1="16" y1="32" x2="384" y2="32" stroke="#b6a891" stroke-width="1" opacity="0.3"/>
+  <rect x="100" y="44" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
+  <rect x="100" y="44" width="0" height="14" rx="4" fill="#b6a891" opacity="1.0"><animate attributeName="width" from="0" to="125" dur="0.8s" begin="0.1s" fill="freeze"/></rect>
+  <text x="94" y="55" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Python</text>
+  <text x="230" y="55" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">52.4%</text>
+  <rect x="100" y="72" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
+  <rect x="100" y="72" width="0" height="14" rx="4" fill="#b6a891" opacity="0.78"><animate attributeName="width" from="0" to="51" dur="0.8s" begin="0.22s" fill="freeze"/></rect>
+  <text x="94" y="83" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">TypeScript</text>
+  <text x="156" y="83" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">21.3%</text>
+  <rect x="100" y="100" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
+  <rect x="100" y="100" width="0" height="14" rx="4" fill="#b6a891" opacity="0.58"><animate attributeName="width" from="0" to="30" dur="0.8s" begin="0.34s" fill="freeze"/></rect>
+  <text x="94" y="111" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">JavaScript</text>
+  <text x="135" y="111" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">12.8%</text>
+  <rect x="100" y="128" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
+  <rect x="100" y="128" width="0" height="14" rx="4" fill="#b6a891" opacity="0.42"><animate attributeName="width" from="0" to="17" dur="0.8s" begin="0.46s" fill="freeze"/></rect>
+  <text x="94" y="139" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Shell</text>
+  <text x="122" y="139" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">7.1%</text>
+  <rect x="100" y="156" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
+  <rect x="100" y="156" width="0" height="14" rx="4" fill="#b6a891" opacity="0.3"><animate attributeName="width" from="0" to="15" dur="0.8s" begin="0.58s" fill="freeze"/></rect>
+  <text x="94" y="167" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Other</text>
+  <text x="120" y="167" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">6.4%</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <style>
+    
+    @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .line0 { opacity: 0; animation: reveal 0.1s 0.00s forwards; }
+    .line1 { opacity: 0; animation: reveal 0.1s 0.80s forwards; }
+    .line2 { opacity: 0; animation: reveal 0.1s 1.60s forwards; }
+    .line3 { opacity: 0; animation: reveal 0.1s 2.40s forwards; }
+    .line4 { opacity: 0; animation: reveal 0.1s 3.20s forwards; }
+    .line5 { opacity: 0; animation: reveal 0.1s 4.00s forwards; }
+    .line6 { opacity: 0; animation: reveal 0.1s 4.80s forwards; }
+    .line7 { opacity: 0; animation: reveal 0.1s 5.60s forwards; }
+    .line8 { opacity: 0; animation: reveal 0.1s 6.40s forwards; }
+    .line9 { opacity: 0; animation: reveal 0.1s 7.20s forwards; }
+    .cursor { opacity: 0; animation: reveal 0.1s 8.00s forwards, blink 1s 8.00s step-end infinite; }
+    .terminal-bg { font-family: Consolas, monospace, 'Courier New', monospace; font-size: 14px; }
+    
+    </style>
+    <clipPath id="terminal-clip">
+      <rect width="600" height="340" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect width="600" height="340" rx="12" ry="12" fill="#1e1e2e"/>
+
+  <!-- Chrome bar -->
+  <rect width="600" height="36" rx="12" ry="12" fill="#2a2a3e"/>
+  <rect y="24" width="600" height="12" fill="#2a2a3e"/>
+
+  <!-- Window control circles -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Terminal title -->
+  <text x="300" y="23" text-anchor="middle" fill="#888" font-size="12"
+        font-family="Consolas, monospace, monospace">terminal</text>
+
+  <!-- Terminal content group -->
+  <g class="terminal-bg" clip-path="url(#terminal-clip)">
+  <text x="20" y="60" fill="#b6a891" class="line0">$ whoami</text>
+  <text x="20" y="82" fill="#eceff4" class="line1">nipun_sujesh</text>
+  <text x="20" y="104" fill="#b6a891" class="line2">$ cat skills.txt</text>
+  <text x="20" y="126" fill="#eceff4" class="line3">AI/ML  Full-Stack  Research  Open Source</text>
+  <text x="20" y="148" fill="#b6a891" class="line4">$ echo $MISSION</text>
+  <text x="20" y="170" fill="#eceff4" class="line5">Build systems at the edge of research and delivery.</text>
+  <text x="20" y="192" fill="#b6a891" class="line6">$ git log --oneline -3</text>
+  <text x="20" y="214" fill="#eceff4" class="line7">a1b2c3 ship: multimodal mental health assistant</text>
+  <text x="20" y="236" fill="#eceff4" class="line8">d4e5f6 feat: xlnet emotion classifier (94.2% acc)</text>
+  <text x="20" y="258" fill="#eceff4" class="line9">g7h8i9 build: real-time study path engine</text>
+  <rect x="20" y="266" width="8" height="16" fill="#b6a891" class="cursor"/>
+  </g>
+</svg>

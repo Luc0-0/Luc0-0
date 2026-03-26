@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="60"
+     viewBox="0 0 800 60" role="img" aria-label="Tech stack marquee">
+  <defs>
+    <linearGradient id="mqBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#151c25"/>
+    </linearGradient>
+    <clipPath id="mqClip">
+      <rect width="800" height="60" rx="10"/>
+    </clipPath>
+    <style>
+      @keyframes mqScroll {
+        0%   { transform: translateX(0px); }
+        100% { transform: translateX(-1354px); }
+      }
+      .mq-track {
+        animation: mqScroll 35s linear infinite;
+        will-change: transform;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="60" rx="10" fill="url(#mqBg)"/>
+  <rect width="800" height="60" rx="10" fill="none"
+        stroke="#2b303a" stroke-width="1" opacity="0.5"/>
+
+  <!-- Scrolling track (clipped) -->
+  <g clip-path="url(#mqClip)">
+    <g class="mq-track">
+      <rect x="0" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="35" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Python</text>
+<rect x="80" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="129" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TypeScript</text>
+<rect x="188" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="219" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">React</text>
+<rect x="261" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="299" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">FastAPI</text>
+<rect x="348" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="386" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PyTorch</text>
+<rect x="435" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="487" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">HuggingFace</text>
+<rect x="550" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="585" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Docker</text>
+<rect x="630" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="679" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PostgreSQL</text>
+<rect x="738" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="769" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Redis</text>
+<rect x="811" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="849" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Next.js</text>
+<rect x="898" y="16" width="91" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="943" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">LangChain</text>
+<rect x="999" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1034" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">OpenCV</text>
+<rect x="1079" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1117" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Node.js</text>
+<rect x="1166" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1218" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TailwindCSS</text>
+<rect x="1281" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1312" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Linux</text>
+<rect x="1354" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1389" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Python</text>
+<rect x="1434" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1483" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TypeScript</text>
+<rect x="1542" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1573" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">React</text>
+<rect x="1615" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1653" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">FastAPI</text>
+<rect x="1702" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1740" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PyTorch</text>
+<rect x="1789" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1841" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">HuggingFace</text>
+<rect x="1904" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1939" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Docker</text>
+<rect x="1984" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2033" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PostgreSQL</text>
+<rect x="2092" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2123" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Redis</text>
+<rect x="2165" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2203" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Next.js</text>
+<rect x="2252" y="16" width="91" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2297" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">LangChain</text>
+<rect x="2353" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2388" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">OpenCV</text>
+<rect x="2433" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2471" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Node.js</text>
+<rect x="2520" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2572" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TailwindCSS</text>
+<rect x="2635" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2666" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Linux</text>
+      <rect x="1354" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1389" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Python</text>
+<rect x="1434" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1483" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TypeScript</text>
+<rect x="1542" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1573" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">React</text>
+<rect x="1615" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1653" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">FastAPI</text>
+<rect x="1702" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1740" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PyTorch</text>
+<rect x="1789" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1841" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">HuggingFace</text>
+<rect x="1904" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="1939" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Docker</text>
+<rect x="1984" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2033" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PostgreSQL</text>
+<rect x="2092" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2123" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Redis</text>
+<rect x="2165" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2203" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Next.js</text>
+<rect x="2252" y="16" width="91" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2297" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">LangChain</text>
+<rect x="2353" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2388" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">OpenCV</text>
+<rect x="2433" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2471" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Node.js</text>
+<rect x="2520" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2572" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TailwindCSS</text>
+<rect x="2635" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2666" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Linux</text>
+<rect x="2708" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2743" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Python</text>
+<rect x="2788" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2837" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TypeScript</text>
+<rect x="2896" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="2927" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">React</text>
+<rect x="2969" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3007" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">FastAPI</text>
+<rect x="3056" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3094" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PyTorch</text>
+<rect x="3143" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3195" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">HuggingFace</text>
+<rect x="3258" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3293" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Docker</text>
+<rect x="3338" y="16" width="98" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3387" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">PostgreSQL</text>
+<rect x="3446" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3477" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Redis</text>
+<rect x="3519" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3557" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Next.js</text>
+<rect x="3606" y="16" width="91" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3651" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">LangChain</text>
+<rect x="3707" y="16" width="70" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3742" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">OpenCV</text>
+<rect x="3787" y="16" width="77" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3825" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Node.js</text>
+<rect x="3874" y="16" width="105" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="3926" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">TailwindCSS</text>
+<rect x="3989" y="16" width="63" height="28" rx="14" fill="rgba(182,168,145,0.15)" stroke="rgba(182,168,145,0.45)" stroke-width="1"/>
+<text x="4020" y="35" font-family="Consolas, monospace" font-size="12" fill="#eceff4" text-anchor="middle" dominant-baseline="auto" font-weight="500">Linux</text>
+    </g>
+  </g>
+</svg>

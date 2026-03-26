@@ -1,17 +1,30 @@
-[![](<https://github.com/Luc0-0/Luc0-0/raw/main/header/anb%20(1).gif>)](https://github.com/Luc0-0/animated_banner)
 <div align="center">
+
+<img src="./header/animated_banner.svg" alt="Nipun Sujesh" width="100%"/>
+
+<br/>
 
 ### Nipun Sujesh
 
-AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions
+**AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions**
 
 <sub>I build production systems at the intersection of research and delivery.</sub>
+
+<br/>
 
 <a href="https://nipun.space" target="_blank"><img src="./header/portfolio.svg" alt="Portfolio" height="36" /></a>&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/nipun-sujesh" target="_blank"><img src="./header/linkedin.svg" alt="LinkedIn" height="36" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:nipunsujesh28@gmail.com"><img src="./header/email.svg" alt="Email" height="36" /></a>
 
 </div>
 
-<img src="./header/divider_luxury.svg" width="100%" />
+<img src="./header/divider_luxury.svg" width="100%"/>
+
+<img src="./header/terminal.svg" width="100%"/>
+
+<img src="./header/divider_luxury.svg" width="100%"/>
+
+<img src="./header/icon_marquee.svg" width="100%"/>
+
+<img src="./header/divider_luxury.svg" width="100%"/>
 
 <div align="center">
 
@@ -20,68 +33,81 @@ AI/ML + Full-Stack Developer · Research-Driven · End-to-End Solutions
 
 </div>
 
-<div align="center">
+<img src="./header/divider_luxury.svg" width="100%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luc0-0&layout=compact&hide_border=false&bg_color=0f1116&title_color=eceff4&text_color=d8dee9&icon_color=b6a891&border_color=2b303a" height="140" />
+<img src="./header/trophies.svg" width="100%"/>
 
-</div>
-
-<img src="./header/divider_luxury.svg" width="100%" />
+<img src="./header/divider_luxury.svg" width="100%"/>
 
 ### ✦ &nbsp;Signature Projects
 
-<img src="./header/pinned_header.svg" width="100%" />
+<img src="./header/pinned_header.svg" width="100%"/>
 
 <div align="center">
 
-<a href="https://github.com/Luc0-0/Serenity-Multi-Modal-Mental-Assistant-System"><img src="./header/pinned_serenity.svg" width="100%" /></a>
+<a href="https://github.com/Luc0-0/Serenity-Multi-Modal-Mental-Assistant-System"><img src="./header/pinned_serenity.svg" width="100%"/></a>
 
 <table>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/Luc0-0/Smart-notes-by-Nipun"><img src="./header/pinned_notes.svg" width="100%" /></a>
+      <a href="https://github.com/Luc0-0/Smart-notes-by-Nipun"><img src="./header/pinned_notes.svg" width="100%"/></a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/Luc0-0/Samarth"><img src="./header/pinned_samarth.svg" width="100%" /></a>
+      <a href="https://github.com/Luc0-0/Samarth"><img src="./header/pinned_samarth.svg" width="100%"/></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/Luc0-0/xlnet-emotion-classifier"><img src="./header/pinned_xlnet.svg" width="100%" /></a>
+      <a href="https://github.com/Luc0-0/xlnet-emotion-classifier"><img src="./header/pinned_xlnet.svg" width="100%"/></a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/Luc0-0/StudyPath"><img src="./header/pinned_studypath.svg" width="100%" /></a>
+      <a href="https://github.com/Luc0-0/StudyPath"><img src="./header/pinned_studypath.svg" width="100%"/></a>
     </td>
   </tr>
 </table>
 
 </div>
 
-<img src="./header/divider_luxury.svg" width="100%" />
+<img src="./header/divider_luxury.svg" width="100%"/>
 
 ### ✦ &nbsp;Current Research
 
-<img src="./header/research_card.svg" width="100%" />
+<img src="./header/research_card.svg" width="100%"/>
 
-<img src="./header/divider_luxury.svg" width="100%" />
+<img src="./header/divider_luxury.svg" width="100%"/>
 
 ### ✦ &nbsp;Technical Foundation
 
-<img src="./header/tech_neural.svg" width="100%" />
+<img src="./header/tech_neural.svg" width="100%"/>
 
-<img src="./header/divider_luxury.svg" width="100%" />
+<img src="./header/divider_luxury.svg" width="100%"/>
+
+### ✦ &nbsp;Coding Activity
+
+<div align="center">
+
+<img src="./header/wakatime.svg" width="49%" />
+<img src="./header/spotify.svg" width="49%" />
+
+</div>
+
+<img src="./header/divider_luxury.svg" width="100%"/>
 
 ### ✦ &nbsp;Impact & Contributions
 
 <div align="center">
+
+<img src="./header/globe.svg" width="40%"/>
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake.svg">
     <img alt="contribution snake" src="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
+
 </div>
 
-<img src="./header/divider_luxury.svg" width="100%" />
+<img src="./header/divider_luxury.svg" width="100%"/>
 
 <div align="center">
   <br/>

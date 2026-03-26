@@ -1,0 +1,42 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#151c25"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect width="400" height="100" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="100" rx="12" fill="url(#bgGrad)" stroke="#2b303a" stroke-width="1"/>
+
+  <!-- Spotify accent bar -->
+  <rect x="0" y="0" width="6" height="100" rx="3" fill="#1db954"/>
+
+  <!-- Album art placeholder -->
+  <rect x="16" y="14" width="56" height="56" rx="8" fill="#1db954" opacity="0.12" stroke="#1db954" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="44" y="49" font-size="26" text-anchor="middle" fill="#1db954" opacity="0.7">&#9835;</text>
+
+  <!-- Equalizer bars -->
+  
+    <style>
+      @keyframes eq1 { 0%,100%{height:8px} 50%{height:18px} }
+      @keyframes eq2 { 0%,100%{height:14px} 33%{height:6px} 66%{height:18px} }
+      @keyframes eq3 { 0%,100%{height:10px} 50%{height:20px} }
+    </style>
+    <rect x="34" y="16" width="4" rx="2" height="8" fill="#1db954" style="animation:eq1 0.8s ease-in-out infinite;transform-origin:34px 24px"/>
+    <rect x="40" y="10" width="4" rx="2" height="14" fill="#1db954" style="animation:eq2 0.9s ease-in-out infinite;transform-origin:40px 24px"/>
+    <rect x="46" y="14" width="4" rx="2" height="10" fill="#1db954" style="animation:eq3 0.7s ease-in-out infinite;transform-origin:46px 24px"/>
+
+  <!-- Track info -->
+  <text x="86" y="34" font-family="Segoe UI, Inter, sans-serif" font-size="14" font-weight="700" fill="#eceff4">Blinding Lights</text>
+  <text x="86" y="52" font-family="Segoe UI, Inter, sans-serif" font-size="11" fill="#eceff4" opacity="0.55">The Weeknd</text>
+
+  <!-- Footer -->
+  <text x="86" y="80" font-family="Consolas, monospace" font-size="9" fill="#1db954" opacity="0.75">Now Playing · Listening on Spotify</text>
+
+  <!-- Spotify logo dot -->
+  <circle cx="380" cy="82" r="5" fill="#1db954" opacity="0.6"/>
+</svg>
