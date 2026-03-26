@@ -266,7 +266,7 @@
   <circle cx="640" cy="104" r="22" fill="url(#nglow)" opacity="0.5"/>
   <circle cx="640" cy="104" r="14" fill="#151c25" stroke="#b6a891" stroke-width="1.5" opacity="0.9"/>
   <circle cx="640" cy="104" r="5" fill="#b6a891" filter="url(#glow)"/>
-  <text x="640" y="132" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#eceff4" opacity="0.9">GitHub Actions</text>
+  <text x="640" y="132" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#eceff4" opacity="0.9">GH Actions</text>
   <circle cx="640" cy="156" r="22" fill="url(#nglow)" opacity="0.5"/>
   <circle cx="640" cy="156" r="14" fill="#151c25" stroke="#b6a891" stroke-width="1.5" opacity="0.9"/>
   <circle cx="640" cy="156" r="5" fill="#b6a891" filter="url(#glow)"/>

@@ -1,8 +1,6 @@
+[![](./header/anb%20(1).gif)](https://github.com/Luc0-0/animated_banner)
+
 <div align="center">
-
-<img src="./header/animated_banner.svg" alt="Nipun Sujesh" width="100%"/>
-
-<br/>
 
 ### Nipun Sujesh
 
@@ -86,8 +84,7 @@
 
 <div align="center">
 
-<img src="./header/wakatime.svg" width="49%" />
-<img src="./header/spotify.svg" width="49%" />
+<img src="./header/wakatime.svg" width="49%" />&nbsp;<img src="./header/spotify.svg" width="49%" />
 
 </div>
 
@@ -96,8 +93,6 @@
 ### ✦ &nbsp;Impact & Contributions
 
 <div align="center">
-
-<img src="./header/globe.svg" width="40%"/>
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luc0-0/Luc0-0/output/github-contribution-grid-snake-dark.svg">
