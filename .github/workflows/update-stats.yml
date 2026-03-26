@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install GodProfile MCP
-        run: pip install godprofile-mcp -q
+        run: pip install "git+https://github.com/Luc0-0/GodProfile.git" -q
 
       - name: Regenerate SVG assets
         env:
