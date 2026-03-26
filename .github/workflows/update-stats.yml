@@ -26,6 +26,8 @@ jobs:
       - name: Regenerate SVG assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SPOTIFY_ACCESS_TOKEN: ${{ secrets.SPOTIFY_ACCESS_TOKEN }}
         run: python generate_assets.py
 
       - name: Commit updated assets

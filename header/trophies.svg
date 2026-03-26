@@ -45,15 +45,15 @@
           font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="bold"
           fill="#cd7f32">B</text>
   </g>
-  <!-- Trophy: Commits (rank C) -->
+  <!-- Trophy: Commits (rank B) -->
   <g transform="translate(142,48)">
     <rect width="120" height="170" rx="10" ry="10"
           fill="#151c25" fill-opacity="0.8"
-          stroke="#eceff4" stroke-width="1.5" >
+          stroke="#cd7f32" stroke-width="1.5" >
     </rect>
     
     <!-- Cup icon -->
-    <g transform="translate(60,62)" fill="#eceff4" opacity="0.9">
+    <g transform="translate(60,62)" fill="#cd7f32" opacity="0.9">
       <path d="M-16,-24 L16,-24 L20,-8 C20,4 12,12 4,14 L4,20 L10,20 L10,26 L-10,26 L-10,20 L-4,20 L-4,14 C-12,12 -20,4 -20,-8 Z M-22,-24 L-16,-24 L-16,-10 C-20,-12 -22,-18 -22,-24 Z M22,-24 L16,-24 L16,-10 C20,-12 22,-18 22,-24 Z"/>
     </g>
     <!-- Title -->
@@ -62,13 +62,13 @@
     <!-- Value -->
     <text x="60" y="132" text-anchor="middle"
           font-family="Segoe UI, Inter, sans-serif" font-size="15" font-weight="bold"
-          fill="#eceff4">0</text>
+          fill="#cd7f32">603</text>
     <!-- Rank badge -->
     <rect x="47" y="142" width="26" height="18" rx="5"
-          fill="#eceff4" opacity="0.18"/>
+          fill="#cd7f32" opacity="0.18"/>
     <text x="60" y="156" text-anchor="middle"
           font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="bold"
-          fill="#eceff4">C</text>
+          fill="#cd7f32">B</text>
   </g>
   <!-- Trophy: PRs (rank B) -->
   <g transform="translate(273,48)">
