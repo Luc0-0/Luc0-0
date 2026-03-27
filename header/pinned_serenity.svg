@@ -35,7 +35,7 @@
   <!-- Stats Add-on -->
   <g transform="translate(110, 115)">
     <path d="M8 1.5L9.6 6.3H14.8L10.6 9.3L12.2 14.1L8 11.1L3.8 14.1L5.4 9.3L1.2 6.3H6.4L8 1.5Z" fill="none" stroke="#b6a891" stroke-width="1.2"/>
-    <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- STARS_COUNT_SERENITY -->3<!-- /STARS_COUNT_SERENITY --></text>
+    <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- STARS_COUNT_SERENITY -->4<!-- /STARS_COUNT_SERENITY --></text>
     <g transform="translate(70, 0)">
       <path d="M4 2v6c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V2M8 10v4M2 4l2-2 2 2M10 4l2-2 2 2M6 14l2 2 2-2" fill="none" stroke="#8f98a8" stroke-width="1.2"/>
       <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- FORKS_COUNT_SERENITY -->0<!-- /FORKS_COUNT_SERENITY --></text>
