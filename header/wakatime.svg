@@ -9,19 +9,19 @@
   <text x="16" y="24" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="700" fill="#eceff4">WakaTime — Weekly Coding Activity</text>
   <line x1="16" y1="32" x2="384" y2="32" stroke="#b6a891" stroke-width="1" opacity="0.3"/>
   <rect x="100" y="44" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
-  <rect x="100" y="44" width="0" height="14" rx="4" fill="#b6a891" opacity="1.0"><animate attributeName="width" from="0" to="108" dur="0.8s" begin="0.1s" fill="freeze"/></rect>
-  <text x="94" y="55" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Python</text>
-  <text x="213" y="55" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">45.2%</text>
+  <rect x="100" y="44" width="0" height="14" rx="4" fill="#b6a891" opacity="1.0"><animate attributeName="width" from="0" to="110" dur="0.8s" begin="0.1s" fill="freeze"/></rect>
+  <text x="94" y="55" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">TeX</text>
+  <text x="215" y="55" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">46.1%</text>
   <rect x="100" y="72" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
-  <rect x="100" y="72" width="0" height="14" rx="4" fill="#b6a891" opacity="0.78"><animate attributeName="width" from="0" to="72" dur="0.8s" begin="0.22s" fill="freeze"/></rect>
+  <rect x="100" y="72" width="0" height="14" rx="4" fill="#b6a891" opacity="0.78"><animate attributeName="width" from="0" to="57" dur="0.8s" begin="0.22s" fill="freeze"/></rect>
   <text x="94" y="83" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">TypeScript</text>
-  <text x="177" y="83" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">30.1%</text>
+  <text x="162" y="83" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">24.2%</text>
   <rect x="100" y="100" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
-  <rect x="100" y="100" width="0" height="14" rx="4" fill="#b6a891" opacity="0.58"><animate attributeName="width" from="0" to="37" dur="0.8s" begin="0.34s" fill="freeze"/></rect>
-  <text x="94" y="111" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Rust</text>
-  <text x="142" y="111" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">15.5%</text>
+  <rect x="100" y="100" width="0" height="14" rx="4" fill="#b6a891" opacity="0.58"><animate attributeName="width" from="0" to="45" dur="0.8s" begin="0.34s" fill="freeze"/></rect>
+  <text x="94" y="111" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">HTML</text>
+  <text x="150" y="111" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">19.2%</text>
   <rect x="100" y="128" width="240" height="14" rx="4" fill="#2b303a" opacity="0.18"/>
-  <rect x="100" y="128" width="0" height="14" rx="4" fill="#b6a891" opacity="0.42"><animate attributeName="width" from="0" to="22" dur="0.8s" begin="0.46s" fill="freeze"/></rect>
-  <text x="94" y="139" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Other</text>
-  <text x="127" y="139" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">9.2%</text>
+  <rect x="100" y="128" width="0" height="14" rx="4" fill="#b6a891" opacity="0.42"><animate attributeName="width" from="0" to="25" dur="0.8s" begin="0.46s" fill="freeze"/></rect>
+  <text x="94" y="139" font-family="Segoe UI, Inter, sans-serif" font-size="10" fill="#eceff4" text-anchor="end">Markdown</text>
+  <text x="130" y="139" font-family="Consolas, monospace" font-size="9" fill="#b6a891" opacity="0.85">10.6%</text>
 </svg>
