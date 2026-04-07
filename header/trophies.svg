@@ -37,7 +37,7 @@
     <!-- Value -->
     <text x="60" y="132" text-anchor="middle"
           font-family="Segoe UI, Inter, sans-serif" font-size="15" font-weight="bold"
-          fill="#cd7f32">71</text>
+          fill="#cd7f32">72</text>
     <!-- Rank badge -->
     <rect x="47" y="142" width="26" height="18" rx="5"
           fill="#cd7f32" opacity="0.18"/>
@@ -162,7 +162,7 @@
     <!-- Value -->
     <text x="60" y="132" text-anchor="middle"
           font-family="Segoe UI, Inter, sans-serif" font-size="15" font-weight="bold"
-          fill="#eceff4">5</text>
+          fill="#eceff4">6</text>
     <!-- Rank badge -->
     <rect x="47" y="142" width="26" height="18" rx="5"
           fill="#eceff4" opacity="0.18"/>
