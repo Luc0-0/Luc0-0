@@ -56,7 +56,7 @@ FastAPI, React, and Python. I ship working code over slide decks.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Luc0-0&show_icons=true&hide_title=true&hide_rank=true&bg_color=0d0d0d&title_color=eeeeee&text_color=cccccc&icon_color=CC4631&border_color=2b303a" height="150" alt="GitHub stats" />
+<img src="./header/live_stats.svg" height="150" alt="27 public repos, 60 total stars, 8 followers, top languages Python, JavaScript, Jupyter Notebook" />
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Luc0-0&background=0d0d0d&border=2b303a&stroke=2b303a&ring=CC4631&fire=CC4631&currStreakNum=eeeeee&sideNums=eeeeee&currStreakLabel=8f98a8&sideLabels=8f98a8&dates=8f98a8" height="150" alt="Streak stats" />
 
 </div>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 380 150" width="380" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f14" />
+      <stop offset="100%" stop-color="#151c25" />
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="380" height="150" rx="12" fill="url(#bg)" />
+  <rect x="1" y="1" width="378" height="148" rx="12" fill="none" stroke="#2b303a" stroke-width="1" />
+
+  <text x="20" y="26" font-family="Consolas, monospace" font-size="8.5" fill="#8f98a8" letter-spacing="1.5">LIVE · GITHUB.COM/LUC0-0</text>
+  <line x1="20" y1="35" x2="360" y2="35" stroke="#2b303a" stroke-width="1" />
+
+  <g transform="translate(20,48)">
+    <text x="0" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#CC4631" filter="url(#softGlow)"><!-- REPOS_COUNT -->27<!-- /REPOS_COUNT --></text>
+    <text x="0" y="52" font-family="Consolas, monospace" font-size="8.5" fill="#8f98a8" letter-spacing="1">REPOS</text>
+  </g>
+
+  <line x1="140" y1="45" x2="140" y2="120" stroke="#2b303a" stroke-width="1" />
+
+  <g transform="translate(160,48)">
+    <text x="0" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#CC4631" filter="url(#softGlow)"><!-- STARS_COUNT_TOTAL -->60<!-- /STARS_COUNT_TOTAL --></text>
+    <text x="0" y="52" font-family="Consolas, monospace" font-size="8.5" fill="#8f98a8" letter-spacing="1">STARS</text>
+  </g>
+
+  <line x1="270" y1="45" x2="270" y2="120" stroke="#2b303a" stroke-width="1" />
+
+  <g transform="translate(290,48)">
+    <text x="0" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#CC4631" filter="url(#softGlow)"><!-- FOLLOWERS_COUNT -->8<!-- /FOLLOWERS_COUNT --></text>
+    <text x="0" y="52" font-family="Consolas, monospace" font-size="8.5" fill="#8f98a8" letter-spacing="1">FOLLOWERS</text>
+  </g>
+
+  <line x1="20" y1="112" x2="360" y2="112" stroke="#2b303a" stroke-width="1" />
+  <text x="20" y="132" font-family="Consolas, monospace" font-size="8.5" fill="#5a636f">top stack: <!-- TOP_LANGUAGES -->Python · JavaScript · Jupyter Notebook<!-- /TOP_LANGUAGES --></text>
+</svg>
