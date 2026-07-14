@@ -1,4 +1,4 @@
-<svg viewBox="0 0 390 150" width="390" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 390 172" width="390" height="172" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b0f14" />
@@ -8,31 +8,33 @@
       <path d="M14 0 H0 V14" fill="none" stroke="#1b222c" stroke-width="0.6" />
     </pattern>
   </defs>
-  <rect width="390" height="150" rx="12" fill="url(#bg)" />
-  <rect width="390" height="150" rx="12" fill="url(#grid)" opacity="0.2" />
-  <rect x="1" y="1" width="388" height="148" rx="12" fill="none" stroke="#2b303a" stroke-width="1" />
+  <rect width="390" height="172" rx="12" fill="url(#bg)" />
+  <rect width="390" height="172" rx="12" fill="url(#grid)" opacity="0.2" />
+  <rect x="1" y="1" width="388" height="170" rx="12" fill="none" stroke="#2b303a" stroke-width="1" />
   <g transform="translate(30,36)">
-    <path d="M -6 6 L -6 -6 M 0 6 L 0 -3 M 6 6 L 6 -1 M 12 6 L 12 1" stroke="#b6a891" stroke-width="1.6" fill="none" stroke-linecap="round" />
+    <path d="M -6 6 L -6 -6 M 0 6 L 0 -3 M 6 6 L 6 -1 M 12 6 L 12 1" stroke="#CC4631" stroke-width="1.6" fill="none" stroke-linecap="round" />
     <line x1="-10" y1="-4" x2="14" y2="-4" stroke="#8f98a8" stroke-width="1.2" />
   </g>
   <text x="60" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceff4">StudyPath</text>
-  <text x="60" y="48" font-family="Consolas, monospace" font-size="8" fill="#8f98a8" letter-spacing="1.2">LEARNING PATHS</text>
+  <text x="60" y="47" font-family="Consolas, monospace" font-size="8" fill="#CC4631" letter-spacing="1.2">ADAPTIVE LEARNING PATH ENGINE</text>
+  <text x="60" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#c3c8d1">Generates milestone-based learning paths and renders</text>
+  <text x="60" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#c3c8d1">them as an interactive graph — full-stack, LLM-planned.</text>
   <g>
-    <rect x="60" y="66" width="56" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
-    <text x="71" y="78" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">React</text>
-    <rect x="120" y="66" width="54" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
-    <text x="130" y="78" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">D3.js</text>
-    <rect x="178" y="66" width="60" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
-    <text x="187" y="78" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">Node.js</text>
+    <rect x="60" y="88" width="56" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
+    <text x="71" y="100" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">React</text>
+    <rect x="120" y="88" width="62" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
+    <text x="129" y="100" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">Tailwind</text>
+    <rect x="186" y="88" width="58" height="18" rx="4" fill="#161d27" stroke="#2f3642" stroke-width="0.7" />
+    <text x="195" y="100" font-family="Consolas, monospace" font-size="9" fill="#a8b1bf">FastAPI</text>
   </g>
-  <g transform="translate(60, 115)">
-    <path d="M8 1.5L9.6 6.3H14.8L10.6 9.3L12.2 14.1L8 11.1L3.8 14.1L5.4 9.3L1.2 6.3H6.4L8 1.5Z" fill="none" stroke="#b6a891" stroke-width="1.2"/>
+  <g transform="translate(60, 137)">
+    <path d="M8 1.5L9.6 6.3H14.8L10.6 9.3L12.2 14.1L8 11.1L3.8 14.1L5.4 9.3L1.2 6.3H6.4L8 1.5Z" fill="none" stroke="#CC4631" stroke-width="1.2"/>
     <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- STARS_COUNT_STUDYPATH -->1<!-- /STARS_COUNT_STUDYPATH --></text>
     <g transform="translate(60, 0)">
       <path d="M4 2v6c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V2M8 10v4M2 4l2-2 2 2M10 4l2-2 2 2M6 14l2 2 2-2" fill="none" stroke="#8f98a8" stroke-width="1.2"/>
       <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- FORKS_COUNT_STUDYPATH -->0<!-- /FORKS_COUNT_STUDYPATH --></text>
     </g>
   </g>
-  <line x1="330" y1="30" x2="330" y2="120" stroke="#2b303a" stroke-width="1" />
-  <text x="345" y="80" font-family="Consolas, monospace" font-size="8" fill="#4c566a" transform="rotate(90 345,80)" letter-spacing="2">PROJECT_04</text>
+  <line x1="330" y1="30" x2="330" y2="142" stroke="#2b303a" stroke-width="1" />
+  <text x="345" y="90" font-family="Consolas, monospace" font-size="8" fill="#4c566a" transform="rotate(90 345,90)" letter-spacing="2">PROJECT_05</text>
 </svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 460 92" width="460" height="92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="460" height="92" rx="10" fill="#EDE6D6" />
+  <rect x="1" y="1" width="458" height="90" rx="10" fill="none" stroke="#C3361B" stroke-width="1" opacity="0.55" />
+  <rect x="1" y="1" width="3" height="90" fill="#C3361B" />
+
+  <image xlink:href="./uv-logo-mono.png" href="./uv-logo-mono.png" x="16" y="18" width="56" height="56" />
+
+  <g>
+    <rect x="86" y="14" width="15" height="15" rx="3" fill="none" stroke="#C3361B" stroke-width="1.1"/>
+    <circle cx="93.5" cy="21.5" r="2.6" fill="#C3361B"/>
+    <text x="108" y="26" font-family="Consolas, monospace" font-size="8.5" fill="#C3361B" letter-spacing="1.2">CURRENTLY BUILDING</text>
+  </g>
+
+  <text x="86" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#211A12">Uni-Verse</text>
+  <text x="86" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#5a5148">Honest, on-the-record platform for college life —</text>
+  <text x="86" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#5a5148">verified student voices, kept public.</text>
+
+  <g>
+    <rect x="330" y="14" width="60" height="17" rx="4" fill="none" stroke="#211A12" stroke-width="0.8" opacity="0.35" />
+    <text x="339" y="26" font-family="Consolas, monospace" font-size="8.5" fill="#3a332c">Next.js</text>
+    <rect x="330" y="35" width="72" height="17" rx="4" fill="none" stroke="#211A12" stroke-width="0.8" opacity="0.35" />
+    <text x="339" y="47" font-family="Consolas, monospace" font-size="8.5" fill="#3a332c">Supabase</text>
+  </g>
+
+  <text x="330" y="82" font-family="Consolas, monospace" font-size="8" fill="#C3361B" letter-spacing="1.5">↗ WAITLIST OPEN</text>
+</svg>

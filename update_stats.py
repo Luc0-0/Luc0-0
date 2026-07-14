@@ -4,11 +4,11 @@ import re
 import os
 
 REPOS = {
-    "Serenity-Multi-Modal-Mental-Assistant-System": ("header/pinned_serenity.svg", "SERENITY"),
-    "Smart-notes-by-Nipun": ("header/pinned_notes.svg", "NOTES"),
-    "Samarth": ("header/pinned_samarth.svg", "SAMARTH"),
-    "xlnet-emotion-classifier": ("header/pinned_xlnet.svg", "XLNET"),
-    "StudyPath": ("header/pinned_studypath.svg", "STUDYPATH")
+    "Luc0-0/Serenity-Multi-Modal-Mental-Assistant-System": ("header/pinned_serenity.svg", "SERENITY"),
+    "Luc0-0/GodProfile": ("header/pinned_godprofile.svg", "GODPROFILE"),
+    "Luc0-0/pragati": ("header/pinned_pragati.svg", "PRAGATI"),
+    "kripasekar187-bit/Guardia-elderly-fall-detection": ("header/pinned_guardia.svg", "GUARDIA"),
+    "Luc0-0/StudyPath": ("header/pinned_studypath.svg", "STUDYPATH")
 }
 
 def update_svg(file_path, tag, stars, forks):
@@ -33,7 +33,7 @@ def update_svg(file_path, tag, stars, forks):
 
 def main():
     for repo, (file_path, tag) in REPOS.items():
-        url = f"https://api.github.com/repos/Luc0-0/{repo}"
+        url = f"https://api.github.com/repos/{repo}"
         headers = {'User-Agent': 'Mozilla/5.0'}
         # Use GITHUB_TOKEN if available to avoid rate limits
         if os.getenv('GITHUB_TOKEN'):
