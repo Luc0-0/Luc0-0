@@ -58,7 +58,7 @@ FastAPI, React, and Python. I ship working code over slide decks.
 
 <div align="center">
 
-### Open Source
+### Open Source Contribution
 
 <!-- OSS_ORGS -->
 <a href="https://github.com/lingdojo" title="lingdojo — 6 PRs"><img src="https://github.com/lingdojo.png" width="40" height="40" alt="lingdojo"/></a> <a href="https://github.com/VoltAgent" title="VoltAgent — 4 PRs"><img src="https://github.com/VoltAgent.png" width="40" height="40" alt="VoltAgent"/></a> <a href="https://github.com/webpod" title="webpod — 2 PRs"><img src="https://github.com/webpod.png" width="40" height="40" alt="webpod"/></a> <a href="https://github.com/GoogleCloudPlatform" title="GoogleCloudPlatform — 1 PR"><img src="https://github.com/GoogleCloudPlatform.png" width="40" height="40" alt="GoogleCloudPlatform"/></a> <a href="https://github.com/antfu-collective" title="antfu-collective — 1 PR"><img src="https://github.com/antfu-collective.png" width="40" height="40" alt="antfu-collective"/></a> <a href="https://github.com/google" title="google — 1 PR"><img src="https://github.com/google.png" width="40" height="40" alt="google"/></a> <a href="https://github.com/yargs" title="yargs — 1 PR"><img src="https://github.com/yargs.png" width="40" height="40" alt="yargs"/></a> <a href="https://github.com/firecrawl" title="firecrawl — 1 PR"><img src="https://github.com/firecrawl.png" width="40" height="40" alt="firecrawl"/></a> <a href="https://github.com/vercel-labs" title="vercel-labs — 1 PR"><img src="https://github.com/vercel-labs.png" width="40" height="40" alt="vercel-labs"/></a> <a href="https://github.com/apify" title="apify — 1 PR"><img src="https://github.com/apify.png" width="40" height="40" alt="apify"/></a>
