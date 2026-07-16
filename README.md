@@ -99,5 +99,5 @@ FastAPI, React, and Python. I ship working code over slide decks.
 <br/><br/>
 <img src="https://komarev.com/ghpvc/?username=Luc0-0&style=flat-square&color=CC4631&labelColor=0d0d0d&label=VISITORS" alt="visitor count" />
 <br/><br/>
-<sub>last updated: <!-- LAST_UPDATED -->2026-07-15<!-- /LAST_UPDATED --></sub>
+<sub>last updated: <!-- LAST_UPDATED -->2026-07-16<!-- /LAST_UPDATED --></sub>
 </div>
