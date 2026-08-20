@@ -36,7 +36,7 @@
     <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- STARS_COUNT_GODPROFILE -->10<!-- /STARS_COUNT_GODPROFILE --></text>
     <g transform="translate(60, 0)">
       <path d="M4 2v6c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V2M8 10v4M2 4l2-2 2 2M10 4l2-2 2 2M6 14l2 2 2-2" fill="none" stroke="#8f98a8" stroke-width="1.2"/>
-      <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- FORKS_COUNT_GODPROFILE -->2<!-- /FORKS_COUNT_GODPROFILE --></text>
+      <text x="20" y="10" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#eceff4" font-weight="600"><!-- FORKS_COUNT_GODPROFILE -->1<!-- /FORKS_COUNT_GODPROFILE --></text>
     </g>
   </g>
   <line x1="330" y1="30" x2="330" y2="142" stroke="#2b303a" stroke-width="1" />
