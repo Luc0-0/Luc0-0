@@ -1,5 +1,6 @@
 import urllib.request
 import json
+import os
 import re
 from datetime import datetime, timezone
 
@@ -8,7 +9,10 @@ README_PATH = "README.md"
 
 
 def _gh(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    if os.getenv('GITHUB_TOKEN'):
+        headers['Authorization'] = f"token {os.getenv('GITHUB_TOKEN')}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=15) as resp:
         return json.loads(resp.read().decode())
 
