@@ -33,7 +33,7 @@
   <line x1="270" y1="45" x2="270" y2="120" stroke="#2b303a" stroke-width="1" />
 
   <g transform="translate(290,48)">
-    <text x="0" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#CC4631" filter="url(#softGlow)"><!-- FOLLOWERS_COUNT -->8<!-- /FOLLOWERS_COUNT --></text>
+    <text x="0" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#CC4631" filter="url(#softGlow)"><!-- FOLLOWERS_COUNT -->9<!-- /FOLLOWERS_COUNT --></text>
     <text x="0" y="52" font-family="Consolas, monospace" font-size="8.5" fill="#8f98a8" letter-spacing="1">FOLLOWERS</text>
   </g>
 
